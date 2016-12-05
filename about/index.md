@@ -5,7 +5,8 @@ tags: [about]
 comments: false
 ---
 
-I am a PhD candidate of Policy Analysis at the Pardee RAND Graduate School. At RAND  Before RAND, I split my time studying economics and working in public policy (and some teaching). I have two masters in economics (Universidad de Chile 2006 & University of Pennsylvania 2010)
+I am a PhD candidate of Policy Analysis at the Pardee RAND Graduate School. My work is about increasing the transparency and reproducibility of policy analysis, as a way to strengthen the connection between policy and evidence.   Before RAND, I study economics and worked in public policy doing impact evaluations and economic analysis of various social policies. 
+
 
 Publications
 ============
@@ -19,11 +20,11 @@ Publications
 Links
 =====
 
-* [My CV](/files/cv.pdf)
+* [CV](/files/cv.pdf)
 
-* [My Teaching Statement](/files/ts.pdf)
+* [Teaching Statement](/files/ts.pdf)
 
-* [My Research Statement](/files/rs.pdf)
+* [Research Statement](/files/rs.pdf)
 
 About This Site
 =========

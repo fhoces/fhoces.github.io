@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Fernando Hoces de la Guardia"
+title                    : "Fernando Hoces de la Guardia [Under construction]"
 title_separator          : "-"
 name                     : "Fernando Hoces de la Guardia"
 description              : "An amazasdasding website."
@@ -81,7 +81,7 @@ author:
   name             : #"Youasdasdr Name"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "PhD candidate of Policy Analysis @ RAND"
-  location         : "Los Angeles, CA"
+  location         : #"Los Angeles, CA"
   email            : fhoces@gmail.com
   uri              :
   bitbucket        :
