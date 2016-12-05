@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "asdasdas Title"
+title                    : "Fernando Hoces de la Guardia"
 title_separator          : "-"
 name                     : "Fernando Hoces de la Guardia"
 description              : "An amazasdasding website."
@@ -78,10 +78,10 @@ analytics:
 
 # Site Author
 author:
-  name             : "Youasdasdr Name"
+  name             : #"Youasdasdr Name"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an asdasdamazing person."
-  location         : "Somewhssssere"
+  bio              : "PhD candidate of Policy Analysis @ RAND"
+  location         : "Los Angeles, CA"
   email            : fhoces@gmail.com
   uri              :
   bitbucket        :
