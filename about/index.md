@@ -5,7 +5,7 @@ tags: [about]
 comments: false
 ---
 
-I am a PhD candidate of Policy Analysis at the Pardee RAND Graduate School. My work is about increasing the transparency and reproducibility of policy analysis, as a way to strengthen the connection between policy and evidence.   Before RAND, I study economics and worked in public policy doing impact evaluations and economic analysis of various social policies. 
+I am a PhD candidate of Policy Analysis at the Pardee RAND Graduate School. My work is about increasing the transparency and reproducibility of policy analysis as a way to strengthen the connection between policy and evidence.   Before RAND, I studied economics and worked in public policy doing impact evaluations and economic analysis of various social policies. 
 
 
 Publications
