@@ -55,7 +55,7 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               :
+  username               : "fhoces"
 facebook:
   username               :
   app_id                 :
@@ -64,9 +64,10 @@ og_image                 : # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
-  type                   : # Person or Organization (defaults to Person)
-  name                   : # If the user or organization name differs from the site's name
-  links: # An array of links to social media profiles
+  type:  # Person or Organization (defaults to Person)
+  name:  # If the user or organization name differs from the site's name
+  links:
+    - "https://twitter.com/fhoces"
 
 # Analytics
 analytics:
@@ -77,11 +78,11 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
+  name             : "Youasdasdr Name"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "I am an asdasdamazing person."
   location         : "Somewhssssere"
-  email            :
+  email            : fhoces@gmail.com
   uri              :
   bitbucket        :
   codepen          :
@@ -89,7 +90,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           :
+  github           : 
   google_plus      :
   keybase          :
   instagram        :
