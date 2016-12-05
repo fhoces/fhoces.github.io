@@ -6,15 +6,15 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-locale                   : "en"
-title                    : "Siasdte Title"
+locale                   : "en-US"
+title                    : "asdasdas Title"
 title_separator          : "-"
-name                     : "Your Name"
-description              : "An amazing website."
+name                     : "Fernando Hoces de la Guardia"
+description              : "An amazasdasding website."
 url                      : "https://fhoces.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+repository               : "fhoces/fhoces.github.io"
+teaser                   : "/assets/images/mm-read-time-example.png"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
@@ -79,8 +79,8 @@ analytics:
 author:
   name             : "Your Name"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an amazing person."
-  location         : "Somewhere"
+  bio              : "I am an asdasdamazing person."
+  location         : "Somewhssssere"
   email            :
   uri              :
   bitbucket        :
