@@ -10,12 +10,11 @@ I am a PhD candidate of Policy Analysis at the Pardee RAND Graduate School. My w
 
 Publications
 ============
-{% comment %}
-1. Robinson, D.G. (2015) <a href="http://arxiv.org/abs/1412.3565">broom: An R package for converting statistical analysis objects into tidy data frames</a>. arXiv preprint. arXiv:1412.3565 [stat.CO].
-2. Robinson, D.G., Wang, J., and Storey, J.D. (2014) <a href="http://biorxiv.org/content/early/2014/12/30/013342">A nested parallel experiment demonstrates differences in intensity-dependence between RNA-seq and microarrays</a>. biorXiv preprint. doi:10.1101/013342.
-3. Robinson, D.G. and Storey, J.D. (2014) <a href="http://bioinformatics.oxfordjournals.org/content/early/2014/09/03/bioinformatics.btu552.abstract?keytype=ref&ijkey=al7iHAgvbsLcdYj">subSeq: Determining appropriate sequencing depth through efficient read subsampling</a>. Bioinformatics, 30 (23): 3424-3426. doi: 10.1093/bioinformatics/btu552.
-{% endcomment %}
+1. Parast L, McCaffrey DF, Burgette LF, Hoces de la Guardia F, Golinelli D, Miles J, Griffin BA. Optimizing Variance-Bias Trade-off in the TWANG Package for Estimation of Propensity Scores. Health Services and Outcomes Research Methodology, In Press
 
+2. Paddock SM, Adams JL, Hoces de la Guardia F. <a href="http://qualitysafety.bmj.com/content/24/2/128.short">Better-than-average and worse-than-average hospitals may not significantly differ from average hospitals: an analysis of Medicare Hospital Compare ratings</a>. BMJ quality & safety, 2015
+
+3. Hoces de la Guardia, F, Hojman A, Larrañaga O. <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1876589">Evaluating the Chile Solidario Program: Results Using the Chile Solidario Panel and the Administrative Databases</a>. Estudios de Economía, Vol. 38, No. 1, p. 129, June 2011.
 
 Links
 =====
