@@ -1,6 +1,5 @@
 ---
-layout: single
-author_profile: true
+title: "Markup: Another Post with Images"
 excerpt: "Examples and code for displaying images in posts."
 header:
   teaser: "http://farm9.staticflickr.com/8426/7758832526_cc8f681e48_c.jpg"
@@ -8,9 +7,7 @@ tags:
   - sample post
   - images
   - test
----  
-
-# Hi asd
+---
 
 Here are some examples of what a post with images might look like. If you want to display two or three images next to each other responsively use `figure` with the appropriate `class`. Each instance of `figure` is auto-numbered and displayed in the caption.
 
@@ -32,7 +29,7 @@ Apply the `half` class like so to display two images side by side that share the
 ```html
 <figure class="half">
     <a href="/assets/images/image-filename-1-large.jpg"><img src="/assets/images/image-filename-1.jpg"></a>
-    <a href="/assets/images/unsplash-gallery-image-4-th.jpg"><img src="/assets/images/unsplash-gallery-image-4-th.jpg"></a>
+    <a href="/assets/images/image-filename-2-large.jpg"><img src="/assets/images/image-filename-2.jpg"></a>
     <figcaption>Caption describing these two images.</figcaption>
 </figure>
 ```
@@ -41,7 +38,7 @@ And you'll get something that looks like this:
 
 <figure class="half">
 	<a href="http://placehold.it/1200x600.JPG"><img src="http://placehold.it/600x300.jpg"></a>
-	<a href="/assets/images/unsplash-gallery-image-4-th.jpg"><img src="/assets/images/unsplash-gallery-image-4-th.jpg"></a>
+	<a href="http://placehold.it/1200x600.jpeg"><img src="http://placehold.it/600x300.jpg"></a>
 	<figcaption>Two images.</figcaption>
 </figure>
 
@@ -51,7 +48,7 @@ Apply the `third` class like so to display three images side by side that share 
 
 ```html
 <figure class="third">
-	<img src="/files/conc_mod.pdf">
+	<img src="/images/image-filename-1.jpg">
 	<img src="/images/image-filename-2.jpg">
 	<img src="/images/image-filename-3.jpg">
 	<figcaption>Caption describing these three images.</figcaption>
@@ -61,9 +58,8 @@ Apply the `third` class like so to display three images side by side that share 
 And you'll get something that looks like this:
 
 <figure class="third">
-	<img src="/files/conc_mod.pdf">
+	<img src="http://placehold.it/600x300.jpg">
 	<img src="http://placehold.it/600x300.jpg">
 	<img src="http://placehold.it/600x300.jpg">
 	<figcaption>Three images.</figcaption>
 </figure>
-

@@ -2,7 +2,7 @@
 layout: splash
 title: Transparency and Reproducibility in Policy Analysis
 tags: [TR]
-comments: false
+comments: true
 ---
 
 Minimum Wage Policy Analysis
