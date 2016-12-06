@@ -1,6 +1,7 @@
 ---
 layout: single
 title: Hi I'm Jeff
+author_profile: true
 ---
 
 Welssddddcome to the Leek group website. My group is organized around three major problems
