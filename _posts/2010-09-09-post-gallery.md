@@ -110,8 +110,8 @@ Here comes another gallery, this time set the `id` to match 2nd gallery hash in 
 
 ```yaml
 gallery2:
-  - url: https://flic.kr/p/8a6Ven
-    image_path: https://farm2.staticflickr.com/1272/4697500467_8294dac099_q.jpg
+  - url: http://events.stanford.edu/events/538/53879/53879-1.jpg
+    image_path: http://events.stanford.edu/events/538/53879/53879-1.jpg
     alt: "Black and grays with a hint of green"
   - url: https://flic.kr/p/8a738X
     image_path: https://farm5.staticflickr.com/4029/4697523701_249e93ba23_q.jpg

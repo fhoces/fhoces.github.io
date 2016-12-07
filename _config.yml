@@ -7,10 +7,10 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Fernando Hoces de la Guardia [Under construction]"
+title                    : "Fernando Hoces de la Guardia"
 title_separator          : "-"
 name                     : "Fernando Hoces de la Guardia"
-description              : "An amazasdasding website."
+description              : "add description"
 url                      : "https://fhoces.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "fhoces/fhoces.github.io"
@@ -80,7 +80,7 @@ analytics:
 author:
   name             : #"Youasdasdr Name"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "PhD candidate of Policy Analysis @ RAND"
+  bio              : "PhD candidate in Policy Analysis @ RAND"
   location         : #"Los Angeles, CA"
   email            : fhoces@gmail.com
   uri              :
@@ -241,6 +241,9 @@ defaults:
     values:
       layout: single
       author_profile: true
+      #comments: true
+      share: true
+      #related: true
   # _posts
   - scope:
       path: ""
@@ -249,6 +252,6 @@ defaults:
       layout: single
       author_profile: true
       #read_time: true
-      #comments: true
+      comments: true
       #share: true
       #related: true
