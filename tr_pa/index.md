@@ -17,7 +17,8 @@ However, if there is no agreement on what is the common set of objective informa
 The goal is to uncover completely the process of specific policy analyses, and transform them into living documents that anybody can download, reproduce and critically appraise with the least amount of barriers possible. This way researchers and analysts can have a constructive debate on the specifics of how the final output is generated and updated. Following the practices of open source software, anybody can suggest improved versions of the analysis, and all changes are observed and tracked openly. 
 
 ---  
-## Policy \# 1: [Minimum Wage in the US](https://rpubs.com/fhoces/dd_cbo_test1)
+
+## Policy \# 1: [Minimum Wage in the US](https://rpubs.com/fhoces/dd_cbo_test1)  
 
 ### What is the policy?  
 Raising the federal minimum wage from $7.25 to $10.10 and indexing it to inflation. 
@@ -43,15 +44,15 @@ Raising the minimum wage would mainly generate one type of winners and two types
 
 
 ---  
-## Policy \# 2: ?
+## Policy \# 2: ?  
 There are many policies that I think would be interesting to put the effort to increase their TR. 
 Here are some examples from wildly different areas:
- - [Projections of Social Security (OASDI Trustees Report)](https://www.ssa.gov/OACT/tr/2015/index.html)
- - [GiveWell's Cost Effectiveness Analyses](http://www.givewell.org/how-we-work/our-criteria/cost-effectiveness/cost-effectiveness-models)
- - [JPAL's  Cost Effectiveness Analyses](https://www.povertyactionlab.org/research-resources/cost-effectiveness)
- - [CBO's scoring of CMS payment models](http://www.modernhealthcare.com/article/20160907/NEWS/160909934?CSAuthResp=1%3A1473623767291245%3A241396%3A1024%3A24%3Aapproved%3A455163CA487F7EF73B5938F8D35CACA0)
- - [Health Screening Guidelines](http://jamanetwork.com/journals/jama/fullarticle/2529493)
- - [Any regulation that fits Greenstones' criteria](http://www.tobinproject.org/sites/tobinproject.org/files/assets/New_Perspectives_Ch5_Greenstone.pdf)
+ - [Projections of Social Security (OASDI Trustees Report)](https://www.ssa.gov/OACT/tr/2015/index.html)  
+ - [GiveWell's Cost Effectiveness Analyses](http://www.givewell.org/how-we-work/our-criteria/cost-effectiveness/cost-effectiveness-models)  
+ - [JPAL's  Cost Effectiveness Analyses](https://www.povertyactionlab.org/research-resources/cost-effectiveness)   
+ - [CBO's scoring of CMS payment models](http://www.modernhealthcare.com/article/20160907/NEWS/160909934?CSAuthResp=1%3A1473623767291245%3A241396%3A1024%3A24%3Aapproved%3A455163CA487F7EF73B5938F8D35CACA0)  
+ - [Health Screening Guidelines](http://jamanetwork.com/journals/jama/fullarticle/2529493)  
+ - [Any regulation that fits Greenstones' criteria](http://www.tobinproject.org/sites/tobinproject.org/files/assets/New_Perspectives_Ch5_Greenstone.pdf)  
  
 **If there is any policy that you think might benefit from this approach, please leave your suggestions in the comments below.** 
 ---
