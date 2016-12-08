@@ -14,7 +14,7 @@ description              : "add description"
 url                      : "https://fhoces.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "fhoces/fhoces.github.io"
-teaser                   : "/assets/images/mm-read-time-example.png"
+# teaser                   : "/assets/images/mm-read-time-example.png"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:

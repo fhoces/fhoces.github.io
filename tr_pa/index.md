@@ -18,7 +18,7 @@ The goal is to uncover completely the process of specific policy analyses, and t
 
 ---  
 
-## Policy \# 1: [Minimum Wage in the US](https://rpubs.com/fhoces/dd_cbo_test1)  
+## Policy \#1: [Minimum Wage in the US](https://rpubs.com/fhoces/dd_cbo_test1)  
 
 ### What is the policy?  
 Raising the federal minimum wage from $7.25 to $10.10 and indexing it to inflation. 
