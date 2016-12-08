@@ -23,6 +23,7 @@ related: true
 * [Gary King](http://gking.harvard.edu/pages/data-sharing-and-replication)
 * [Carl Boettiger](http://www.carlboettiger.info/)
 * [David Robinson](http://varianceexplained.org/)
+* [Jesse Rothstein](http://eml.berkeley.edu/~jrothst/)
 
 
 ## Resources  

@@ -1,7 +1,7 @@
 ---
 layout: splash
 title: About Me
-tags: [about]
+tags: [links]
 comments: false
 ---
 
@@ -45,3 +45,4 @@ All blog posts are compiled with [knitr](http://yihui.name/knitr/) [R markdown](
 
 All opinions and views are my own and do not represent my employer ( [including](http://varianceexplained.org/r/are_users_quitting/) [posts](http://varianceexplained.org/r/providence-visualizer/) [about](http://varianceexplained.org/r/introducing-stackr/) Stack Overflow).
 {% endcomment %}
+
