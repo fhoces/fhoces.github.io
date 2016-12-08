@@ -43,8 +43,10 @@ Raising the minimum wage would mainly generate one type of winners and two types
   2- Revise current model: for example adding dimension over which the policy can affect the income of families (complementarity with EITC, effects over SNAP, etc)
 
 
----  
+---    
+
 ## Policy \# 2: ?  
+
 There are many policies that I think would be interesting to put the effort to increase their TR. 
 Here are some examples from wildly different areas:
  - [Projections of Social Security (OASDI Trustees Report)](https://www.ssa.gov/OACT/tr/2015/index.html)  
