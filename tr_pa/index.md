@@ -45,13 +45,13 @@ Raising the minimum wage would mainly generate one type of winners and two types
 
 ---    
 
-## Policy \# 2: ?  
+## Policy \#2:?  
 
 There are many policies that I think would be interesting to put the effort to increase their TR. 
-Here are some examples from wildly different areas:
- - [Projections of Social Security (OASDI Trustees Report)](https://www.ssa.gov/OACT/tr/2015/index.html)  
+Here are some examples from wildly different areas:  
  - [GiveWell's Cost Effectiveness Analyses](http://www.givewell.org/how-we-work/our-criteria/cost-effectiveness/cost-effectiveness-models)  
  - [JPAL's  Cost Effectiveness Analyses](https://www.povertyactionlab.org/research-resources/cost-effectiveness)   
+ - [Projections of Social Security (OASDI Trustees Report)](https://www.ssa.gov/OACT/tr/2015/index.html)    
  - [CBO's scoring of CMS payment models](http://www.modernhealthcare.com/article/20160907/NEWS/160909934?CSAuthResp=1%3A1473623767291245%3A241396%3A1024%3A24%3Aapproved%3A455163CA487F7EF73B5938F8D35CACA0)  
  - [Health Screening Guidelines](http://jamanetwork.com/journals/jama/fullarticle/2529493)  
  - [Any regulation that fits Greenstones' criteria](http://www.tobinproject.org/sites/tobinproject.org/files/assets/New_Perspectives_Ch5_Greenstone.pdf)  
