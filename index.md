@@ -23,12 +23,13 @@ gallery2:
     alt: "Made for open text placement"
 ---   
 
-# Open Policy Anlysis  
 
 ## The good news 
 There is a major push across scientific fields to increase the transparency and reproducibility (TR) of research. Guidelines and tools for reproducible and open research have been developed, and are been adopted by an ever-growing number of academic organizations and individual researchers. 
 
 {% include gallery id="gallery2" caption="" %}
+
+# Open Policy Anlysis  
 
 ## The bad news 
 At the same time in the domain of public policy, evidence seems be losing credibility. Different stakeholders, instead of weighting the same evidence in accordance to different values, now disagree on what the evidence is, failing to reveal what their differing values are. 
