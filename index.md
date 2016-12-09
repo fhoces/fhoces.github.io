@@ -21,7 +21,8 @@ gallery2:
   - url: /pioneers/
     image_path: /files/more.jpg
     alt: "Made for open text placement"
----  
+---   
+
 
 # Open Policy Analysis   
 
