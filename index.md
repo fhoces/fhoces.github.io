@@ -23,7 +23,6 @@ gallery2:
     alt: "Made for open text placement"
 ---   
 
-
 # Open Policy Anlysis
 
 ## The good news 
