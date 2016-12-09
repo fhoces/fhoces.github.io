@@ -24,9 +24,7 @@ gallery2:
 ---   
 
 
-Open Policy Anlysis
-===================
-
+# Open Policy Anlysis
 
 ## The good news 
 There is a major push across scientific fields to increase the transparency and reproducibility (TR) of research. Guidelines and tools for reproducible and open research have been developed, and are been adopted by an ever-growing number of academic organizations and individual researchers. 
