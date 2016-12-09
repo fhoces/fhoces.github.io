@@ -23,6 +23,8 @@ gallery2:
     alt: "Made for open text placement"
 ---  
 
+# Open Policy Analysis   
+
 ## The good news 
 There is a major push across scientific fields to increase the transparency and reproducibility (TR) of research. Guidelines and tools for reproducible and open research have been developed, and are been adopted by an ever-growing number of academic organizations and individual researchers. 
 
