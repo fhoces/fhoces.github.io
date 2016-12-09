@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: default
 author_profile: true
 
 gallery2:
@@ -22,6 +22,7 @@ gallery2:
     image_path: /files/more.jpg
     alt: "Made for open text placement"
 ---   
+
 
 ## Open Policy Anlysis  
 
