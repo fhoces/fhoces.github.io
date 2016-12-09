@@ -31,9 +31,7 @@ Links
 
 * [CV](/files/cv.pdf)
 
-* [Teaching Statement](/files/ts.pdf)
-
-* [Research Statement](/files/rs.pdf)
+* [Research and Teaching Statement](/files/RSTS.pdf)
 
 ### About This Site
 
