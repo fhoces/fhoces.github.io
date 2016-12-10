@@ -9,7 +9,7 @@
 locale                   : "en-US"
 title                    : "Fernando Hoces de la Guardia"
 title_separator          : "-"
-name                     : "Fernando Hoces de la Guardia"
+#name                     : "Fernando Hoces de la Guardia"
 description              : "add description"
 url                      : "https://fhoces.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
