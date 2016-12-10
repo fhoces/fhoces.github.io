@@ -222,6 +222,9 @@
 <loc>http://localhost:4000/collection-archive/</loc>
 </url>
 <url>
+<loc>http://localhost:4000/</loc>
+</url>
+<url>
 <loc>http://localhost:4000/tr_pa/</loc>
 </url>
 <url>

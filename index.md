@@ -23,6 +23,9 @@ gallery2:
     alt: "Made for open text placement"
 ---   
 
+<h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3>
+
+
 ## Open Policy Anlysis  
 
 ### The good news 
