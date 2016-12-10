@@ -42,7 +42,7 @@ Across all evidence cited by different policy makers (example: reports from the 
 ## Part of the solution
 Let's follow science, open up the kitchen. And publish the cookbook with the recipe. Many of the tools and protocols to increase transparency and reproducibility (TR) in science can be translated to increase TR in Policy Analysis.   
 
-> [**That is what I explore in my dissertation**](/tr_pa/)  
+> [**That is what I explore in my dissertation. Click here to learn more**](/tr_pa/)  
   
 Applying TR principles from science to policy analysis would raise the credibility of policy reports and facilitate a more constructive debate in both the positive and normative areas of public policy. 
 
