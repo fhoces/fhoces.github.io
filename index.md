@@ -1,8 +1,7 @@
 ---
 layout: single
 author_profile: true
-title: null  
-header: "asd"
+title: false  
 gallery2:
   - url: https://cos.io/
     image_path: /files/cos.jpg
