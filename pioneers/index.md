@@ -14,7 +14,7 @@ related: true
 * [Meta-Research Innovation Center at Stanford](http://metrics.stanford.edu/)
 * [rOpenSci](https://ropensci.org/)  
 
-## People (Not in orgs above) 
+## People 
 
 * [Peng, Leek & Irizarry](http://simplystatistics.org/) 
 * [Nelson, Simmons, & Simonsohn](http://datacolada.org/)
