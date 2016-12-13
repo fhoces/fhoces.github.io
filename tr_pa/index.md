@@ -18,7 +18,7 @@ The goal is to uncover completely the process of specific policy analyses, and t
 
 ---  
 
-## Policy \#1: [Minimum Wage in the US](https://rpubs.com/fhoces/dd_cbo_test1)  
+## Policy \#1: [Minimum Wage in the US](https://rpubs.com/fhoces/dd_cbo_mw)  
 
 ### What is the policy?  
 Raising the federal minimum wage from $7.25 to $10.10 and indexing it to inflation. 
@@ -30,7 +30,7 @@ Raising the minimum wage would mainly generate one type of winners and two types
 ["The Effects of a Minimum-Wage Increase on Employment and Family Income"](https://www.cbo.gov/publication/44995), 2014.
 
 ### Can we make a version that is fully transparent and reproducible? 
-Yes. [Here is a dynamic document](https://rpubs.com/fhoces/dd_cbo_test1) that does that, and [here is the source code](https://github.com/fhoces/dd_cbo_mw) that generate such document. 
+Yes. [Here is a dynamic document](https://rpubs.com/fhoces/dd_cbo_mw) that does that, and [here is the source code](https://github.com/fhoces/dd_cbo_mw) that generate such document. 
 
 ### What did we learn by increasing the TR? 
 - From a policy perspective, the academic debate around the effects on employment seems largely inconsequential.   
