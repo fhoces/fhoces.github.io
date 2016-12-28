@@ -26,21 +26,23 @@ gallery2:
 # Open Policy Analysis
 
 ## The good news 
-There is a major push across scientific fields to increase the transparency and reproducibility (TR) of research. Guidelines and tools for reproducible and open research have been developed, and are been adopted by an ever-growing number of academic organizations and individual researchers. 
+There is a major push across scientific fields to increase the transparency and reproducibility (TR) of research. Guidelines and tools for reproducible and open research have been developed, and are being adopted by an ever-growing number of academic organizations and individual researchers. 
 
 {% include gallery id="gallery2" caption="" %}
 
 ## The bad news 
-At the same time in the domain of public policy, evidence seems be losing credibility. Different stakeholders, instead of weighting the same evidence in accordance to different values, now disagree on what the evidence is, failing to reveal what their differing values are. 
+At the same time in the domain of public policy, where decisions are made regarding the design of laws, regulations, and other policies, evidence seems be losing credibility. Different stakeholders, instead of weighing the same evidence in accordance with different values, now disagree on what the evidence is, failing to reveal what their differing values are. 
 
 <figure>
 <a href="/files/nofacts.jpg"><img src="/files/nofacts.jpg"></a>
 </figure>
 
-Across all evidence cited by different policy makers (example: reports from the Congressional Budget Office, agencies from the executive branch or think tanks) there is one common feature: **we don't know how the sausage is made!**. The obscurity behind the production of these policy analyses weakens their credibility, facilitating the cherry picking of reports. 
+
+
+Across all evidence cited by different policy makers (example: reports from the Congressional Budget Office, agencies from the executive branch or think tanks) there is one common feature: **we don't know how the sausage is made!** The obscurity behind the production of these policy analyses weakens their credibility, facilitating the cherry picking of reports. 
 
 ## Part of the solution
-Let's follow science, open up the kitchen. And publish the cookbook with the recipe. Many of the tools and protocols to increase transparency and reproducibility (TR) in science can be translated to increase TR in Policy Analysis.   
+Let's follow science and open up the kitchen. And publish the cookbook with the recipe. Many of the tools and protocols to increase transparency and reproducibility (TR) in science can be translated to increase TR in Policy Analysis.   
 
 > [**That is what I explore in my dissertation. Click here to learn more**](/tr_pa/)  
   
