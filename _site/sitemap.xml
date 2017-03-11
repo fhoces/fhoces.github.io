@@ -276,6 +276,10 @@
 <loc>http://localhost:4000/year-archive/</loc>
 </url>
 <url>
+<loc>http://localhost:4000/files/CV.pdf</loc>
+<lastmod>2017-03-10T17:23:49-08:00</lastmod>
+</url>
+<url>
 <loc>http://localhost:4000/files/JMP.pdf</loc>
 <lastmod>2016-12-12T22:49:33-08:00</lastmod>
 </url>
@@ -292,11 +296,11 @@
 <lastmod>2016-04-15T14:39:26-07:00</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/files/cv.pdf</loc>
-<lastmod>2016-12-28T09:58:35-08:00</lastmod>
+<loc>http://localhost:4000/files/slides_15min.pdf</loc>
+<lastmod>2017-03-02T20:24:02-08:00</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/files/slides_15min.pdf</loc>
-<lastmod>2016-12-12T22:52:48-08:00</lastmod>
+<loc>http://localhost:4000/files/slides_idb.pdf</loc>
+<lastmod>2017-03-03T04:53:10-08:00</lastmod>
 </url>
 </urlset>

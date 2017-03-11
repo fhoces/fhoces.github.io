@@ -22,7 +22,7 @@ Job Market Paper
 =====
 * Most recent version of the paper: [here](/files/JMP.pdf)
 
-* Slides: [here](/files/slides_15min.pdf)
+* Slides: [here](/files/slides_idb.pdf)
 
 
 
