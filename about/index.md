@@ -10,7 +10,7 @@ I am a PhD candidate in Policy Analysis at the Pardee RAND Graduate School. My w
 
 Publications
 ============
-1. Parast L, McCaffrey DF, Burgette LF, Hoces de la Guardia F, Golinelli D, Miles J, Griffin BA. *Optimizing Variance-Bias Trade-off in the TWANG Package for Estimation of Propensity Scores*. Health Services and Outcomes Research Methodology, In Press
+1. Parast L, McCaffrey DF, Burgette LF, Hoces de la Guardia F, Golinelli D, Miles J, Griffin BA. <a href="https://link.springer.com/article/10.1007/s10742-016-0168-2">Optimizing Variance-Bias Trade-off in the TWANG Package for Estimation of Propensity Scores</a>. Health Services and Outcomes Research Methodology, In Press
 
 2. Paddock SM, Adams JL, Hoces de la Guardia F. <a href="http://qualitysafety.bmj.com/content/24/2/128.short">Better-than-average and worse-than-average hospitals may not significantly differ from average hospitals: an analysis of Medicare Hospital Compare ratings</a>. BMJ quality & safety, 2015
 
