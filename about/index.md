@@ -18,9 +18,9 @@ Publications
 
 
 
-Job Market Paper  
+Dissertation
 =====
-* Most recent version of the paper: [here](/files/JMP.pdf)
+* Most recent version of the manuscript: [here](/files/dissertation.pdf)
 
 * Slides: [here](/files/slides_idb.pdf)
 
