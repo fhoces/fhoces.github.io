@@ -22,7 +22,7 @@ Dissertation
 =====
 * Manuscript: [here](/files/dissertation.pdf)
 
-* Slides (latest presentaion): [here](/files/slides_rpg.pdf)
+* Slides (latest presentation): [here](/files/slides_rpg.pdf)
 
 
 
