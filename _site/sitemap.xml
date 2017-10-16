@@ -293,7 +293,7 @@
 </url>
 <url>
 <loc>http://localhost:4000/files/cv.pdf</loc>
-<lastmod>2017-05-12T22:37:55-07:00</lastmod>
+<lastmod>2017-10-16T16:14:45-07:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/files/dissertation.pdf</loc>
@@ -306,5 +306,9 @@
 <url>
 <loc>http://localhost:4000/files/slides_idb.pdf</loc>
 <lastmod>2017-05-12T22:25:19-07:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/files/slides_rpg.pdf</loc>
+<lastmod>2017-10-16T16:26:50-07:00</lastmod>
 </url>
 </urlset>

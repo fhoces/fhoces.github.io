@@ -80,9 +80,9 @@ analytics:
 author:
   name             : #"Youasdasdr Name"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "PhD candidate in Policy Analysis @ RAND"
+  bio              : "Postdoctoral Fellow @ BITSS"
   location         : #"Los Angeles, CA"
-  email            : fhoces@gmail.com
+  email            : fhoces@berkeley.edu
   uri              :
   bitbucket        :
   codepen          :
@@ -90,7 +90,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : fhoces 
+  github           : fhoces
   google_plus      :
   keybase          :
   instagram        :

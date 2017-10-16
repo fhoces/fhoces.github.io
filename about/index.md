@@ -5,7 +5,7 @@ tags: [links]
 comments: false
 ---
 
-I am a PhD candidate in Policy Analysis at the Pardee RAND Graduate School. My work is about increasing the transparency and reproducibility of policy analysis as a way to strengthen the connection between policy and evidence.   Before RAND, I studied economics and worked in public policy doing impact evaluations and economic analysis of various social policies. 
+I am a Postdoctoral Fellow at the Berkeley Initiative for Transparency in the Social Sciences (BITSS). I did my PhD in Policy Analysis at RAND with my dissertation focused on increasing the transparency and reproducibility of policy analysis as a way to strengthen the connection between policy and evidence. Before RAND, I studied economics and worked in public policy doing impact evaluations and economic analysis of various social policies.
 
 
 Publications
@@ -20,9 +20,9 @@ Publications
 
 Dissertation
 =====
-* Most recent version of the manuscript: [here](/files/dissertation.pdf)
+* Manuscript: [here](/files/dissertation.pdf)
 
-* Slides: [here](/files/slides_idb.pdf)
+* Slides (latest presentaion): [here](/files/slides_rpg.pdf)
 
 
 
@@ -36,12 +36,11 @@ Links
 
 ### About This Site
 
-This site is powered by [Jekyll](http://jekyllrb.com/) using the [Minimal Mistakes](http://mademistakes.com/minimal-mistakes/) theme. 
+This site is powered by [Jekyll](http://jekyllrb.com/) using the [Minimal Mistakes](http://mademistakes.com/minimal-mistakes/) theme.
 {% comment %}
 All blog posts are released under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).
 
-All blog posts are compiled with [knitr](http://yihui.name/knitr/) [R markdown](http://rmarkdown.rstudio.com/) using [this script](https://github.com/dgrtwo/dgrtwo.github.com/blob/master/_scripts/knitpages.R). You can find the reproducible sources of each blog post [here](https://github.com/dgrtwo/dgrtwo.github.com/tree/master/_R). 
+All blog posts are compiled with [knitr](http://yihui.name/knitr/) [R markdown](http://rmarkdown.rstudio.com/) using [this script](https://github.com/dgrtwo/dgrtwo.github.com/blob/master/_scripts/knitpages.R). You can find the reproducible sources of each blog post [here](https://github.com/dgrtwo/dgrtwo.github.com/tree/master/_R).
 
 All opinions and views are my own and do not represent my employer ( [including](http://varianceexplained.org/r/are_users_quitting/) [posts](http://varianceexplained.org/r/providence-visualizer/) [about](http://varianceexplained.org/r/introducing-stackr/) Stack Overflow).
 {% endcomment %}
-
