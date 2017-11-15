@@ -5,7 +5,7 @@ tags: [links]
 comments: false
 ---
 
-I am a Postdoctoral Fellow at the Berkeley Initiative for Transparency in the Social Sciences (BITSS). I did my PhD in Policy Analysis at RAND with my dissertation focused on increasing the transparency and reproducibility of policy analysis as a way to strengthen the connection between policy and evidence. Before RAND, I studied economics and worked in public policy doing impact evaluations and economic analysis of various social policies.
+I am a Postdoctoral Fellow at the [Berkeley Initiative for Transparency in the Social Sciences (BITSS)](http://www.bitss.org/). I did my PhD in Policy Analysis at RAND with my dissertation focused on increasing the transparency and reproducibility of policy analysis as a way to strengthen the connection between policy and evidence. Before RAND, I studied economics and worked in public policy doing impact evaluations and economic analysis of various social policies.
 
 
 Publications
