@@ -20,7 +20,7 @@ Publications
 
 Dissertation
 =====
-* Manuscript: [here](/files/dissertation.pdf)
+* Manuscript: [here](https://osf.io/preprints/bitss/ba7tr/)
 
 * Slides (latest presentation): [here](/files/slides_rpg.pdf)
 
