@@ -234,6 +234,9 @@
 <loc>http://localhost:4000/about/</loc>
 </url>
 <url>
+<loc>http://localhost:4000/nominate/</loc>
+</url>
+<url>
 <loc>http://localhost:4000/tr_pa/</loc>
 </url>
 <url>

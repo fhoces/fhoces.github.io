@@ -4,14 +4,16 @@ main:
   #  url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
-  - title: "About Me"
-    url: /about/
+  - title: "Nominate A Policy Analysis"
+    url: /nominate/
   - title: "TR in Policy Analysis"
     url: /tr_pa/
 #  - title: "Job Market Paper"
 #    url: /JMP/
   - title: "TR in Science (links)"
     url: /pioneers/
+  - title: "About Me"
+    url: /about/
   # - title: "Sample Collections"
   #   url: /collection-archive/
   # - title: "Sitemap"
