@@ -5,16 +5,19 @@ tags: [links]
 comments: false
 ---
 
-I am a Postdoctoral Fellow at the [Berkeley Initiative for Transparency in the Social Sciences (BITSS)](http://www.bitss.org/). I did my PhD in Policy Analysis at RAND with my dissertation focused on increasing the transparency and reproducibility of policy analysis as a way to strengthen the connection between policy and evidence. Before RAND, I studied economics and worked in public policy doing impact evaluations and economic analysis of various social policies.
+I am a Postdoctoral Fellow at the [Berkeley Initiative for Transparency in the Social Sciences (BITSS)](http://www.bitss.org/) where I work on Open Science and Open Policy Analysis. I did my PhD in Policy Analysis at RAND with my dissertation focused on increasing the transparency and reproducibility of policy analysis as a way to strengthen the connection between policy and evidence. Before RAND, I studied economics and worked in public policy doing impact evaluations and economic analysis of various social policies.
 
 
 Publications
 ============
-1. Parast L, McCaffrey DF, Burgette LF, Hoces de la Guardia F, Golinelli D, Miles J, Griffin BA. <a href="https://link.springer.com/article/10.1007/s10742-016-0168-2">Optimizing Variance-Bias Trade-off in the TWANG Package for Estimation of Propensity Scores</a>. Health Services and Outcomes Research Methodology, In Press
+1. F. Hoces de la Guardia, J. Hwang, JL Adams, SM. Paddock.<a href="https://link.springer.com/article/10.1007/s10742-018-0179-2">Loss Function-based Evaluation of Physician Report Cards</a>.;  Health Services and Outcomes Research Methodology; February 2018.
 
-2. Paddock SM, Adams JL, Hoces de la Guardia F. <a href="http://qualitysafety.bmj.com/content/24/2/128.short">Better-than-average and worse-than-average hospitals may not significantly differ from average hospitals: an analysis of Medicare Hospital Compare ratings</a>. BMJ quality & safety, 2015
 
-3. Hoces de la Guardia, F, Hojman A, Larrañaga O. <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1876589">Evaluating the Chile Solidario Program: Results Using the Chile Solidario Panel and the Administrative Databases</a>. Estudios de Economía, Vol. 38, No. 1, p. 129, June 2011.
+2. Parast L, McCaffrey DF, Burgette LF, Hoces de la Guardia F, Golinelli D, Miles J, Griffin BA. <a href="https://link.springer.com/article/10.1007/s10742-016-0168-2">Optimizing Variance-Bias Trade-off in the TWANG Package for Estimation of Propensity Scores</a>. Health Services and Outcomes Research Methodology, December 2016.  
+
+3. Paddock SM, Adams JL, Hoces de la Guardia F. <a href="http://qualitysafety.bmj.com/content/24/2/128.short">Better-than-average and worse-than-average hospitals may not significantly differ from average hospitals: an analysis of Medicare Hospital Compare ratings</a>. BMJ quality & safety, 2015
+
+4. Hoces de la Guardia, F, Hojman A, Larrañaga O. <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1876589">Evaluating the Chile Solidario Program: Results Using the Chile Solidario Panel and the Administrative Databases</a>. Estudios de Economía, Vol. 38, No. 1, p. 129, June 2011.
 
 
 
@@ -22,7 +25,7 @@ Dissertation
 =====
 * Manuscript: [here](https://osf.io/preprints/bitss/ba7tr/)
 
-* Slides (latest presentation): [here](/files/slides_rpg.pdf)
+* Slides (latest presentation): [here](https://tinyurl.com/ycfg33vr)
 
 
 
