@@ -10,7 +10,7 @@ I am a Postdoctoral Fellow at the [Berkeley Initiative for Transparency in the S
 
 Publications
 ============
-1. F. Hoces de la Guardia, J. Hwang, JL Adams, SM. Paddock.<a href="https://link.springer.com/article/10.1007/s10742-018-0179-2">Loss Function-based Evaluation of Physician Report Cards</a>.;  Health Services and Outcomes Research Methodology; February 2018.
+1. F. Hoces de la Guardia, J. Hwang, JL Adams, SM. Paddock.<a href="https://link.springer.com/article/10.1007/s10742-018-0179-2">Loss Function-based Evaluation of Physician Report Cards</a>.  Health Services and Outcomes Research Methodology; February 2018.
 
 
 2. Parast L, McCaffrey DF, Burgette LF, Hoces de la Guardia F, Golinelli D, Miles J, Griffin BA. <a href="https://link.springer.com/article/10.1007/s10742-016-0168-2">Optimizing Variance-Bias Trade-off in the TWANG Package for Estimation of Propensity Scores</a>. Health Services and Outcomes Research Methodology, December 2016.  
