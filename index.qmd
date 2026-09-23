@@ -3,7 +3,7 @@ title: "Fernando Hoces de la Guardia"
 image: files/photo.jpg
 about:
   template: trestles
-  image-width: 17em
+  image-width: 11em
   links:
     - icon: envelope
       text: Email
