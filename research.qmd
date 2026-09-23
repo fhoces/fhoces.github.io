@@ -20,26 +20,26 @@ What scientists choose not to publish can be as important as what they do publis
 
 ::: pub-list
 - "Assessing Reproducibility in Economics Using Standardized Crowd-sourced Analysis"; Abel Brodeur ⓡ Seung Yong Sung ⓡ Edward Miguel ⓡ Lars Vilhuber ⓡ Fernando Hoces de la Guardia. [NBER w33753](https://www.nber.org/papers/w33753)
-- "The Reproducibility and Robustness of Economics and Political Science"; Brodeur, A., Mikola, D., Cook, N, Fiala, L. ..., Hoces de la Guardia, F ..... 2025 (Nature R&R)
 :::
 
 ### Published Papers
 
 ::: pub-list
-- "Promoting reproducibility and replicability in political science"; Brodeur, A., Esterling, K., Ankel-Peters, J., Bueno, N., Desposato, S., Dreber, A., Genovese, F., Green, D., Hepplewhite, M., Hoces de la Guardia, F., et. al.; *Research & Politics*, 2024.
-- "Reproduction and replication at scale"; Brodeur, A., Dreber A., Hoces de la Guardia, F., Miguel, E.; *Nature Human Behaviour*, Correspondence, 2024.
-- "Replication games: how to make reproducibility research more systematic"; Brodeur, A., Dreber A., Hoces de la Guardia, F., Miguel, E.; *Nature*, Comment, 2023.
-- "A Framework for Open Policy Analysis", F. Hoces De La Guardia, S. Grant, E. Miguel; *Science and Public Policy* 48.2;154-163; 2021. [tinyurl.com/1qypbihb](http://tinyurl.com/1qypbihb).
-- "A consensus-based transparency checklist"; Aczel, B., Szaszi, B., Sarafoglou, A., Kekecs, Z., Kucharský, Š., Benjamin, D., ... F. Hoces de la Guardia..., & Ioannidis, J. P; *Nature Human Behaviour*; 2019.1-3.
+- "Reproducibility and robustness of economics and political science research"; Brodeur, A., Mikola, D., Cook, N, Fiala, L. ..., Hoces de la Guardia, F .....; *Nature*, 2026. [DOI](https://doi.org/10.1038/s41586-026-10251-x) [free version](https://researchonline.lse.ac.uk/id/eprint/137919/)
+- "Promoting reproducibility and replicability in political science"; Brodeur, A., Esterling, K., Ankel-Peters, J., Bueno, N., Desposato, S., Dreber, A., Genovese, F., Green, D., Hepplewhite, M., Hoces de la Guardia, F., et. al.; *Research & Politics*, 2024. [DOI](https://doi.org/10.1177/20531680241233439)
+- "Reproduction and replication at scale"; Brodeur, A., Dreber A., Hoces de la Guardia, F., Miguel, E.; *Nature Human Behaviour*, Correspondence, 2024. [DOI](https://doi.org/10.1038/s41562-023-01807-2)
+- "Replication games: how to make reproducibility research more systematic"; Brodeur, A., Dreber A., Hoces de la Guardia, F., Miguel, E.; *Nature*, Comment, 2023. [DOI](https://doi.org/10.1038/d41586-023-02997-5) [free version](https://escholarship.org/uc/item/1qj8937s)
+- "A Framework for Open Policy Analysis", F. Hoces De La Guardia, S. Grant, E. Miguel; *Science and Public Policy* 48.2;154-163; 2021. [DOI](https://doi.org/10.1093/scipol/scaa067) [free full text](http://tinyurl.com/1qypbihb)
+- "A consensus-based transparency checklist"; Aczel, B., Szaszi, B., Sarafoglou, A., Kekecs, Z., Kucharský, Š., Benjamin, D., ... F. Hoces de la Guardia..., & Ioannidis, J. P; *Nature Human Behaviour*; 2019.1-3. [DOI](https://doi.org/10.1038/s41562-019-0772-6)
 :::
 
 ### During & Pre-PhD
 
 ::: pub-list
-- "Loss Function-based Evaluation of Physician Report Cards"; F. Hoces de la Guardia, J. Hwang, JL Adams, SM. Paddock. *Health Services and Outcomes Research Methodology*; 2018.
-- "Optimizing Variance-Bias Trade-off in the TWANG Package for Estimation of Propensity Scores"; L. Parast, D. McCaffrey, L. Burgette, F. Hoces de la Guardia, D. Golinelli, JNV Miles, BA Griffin; *Health Services and Outcomes Research Methodology*; 2017.
-- "Better-than-average and worse-than-average hospitals may not significantly differ from average hospitals: an analysis of Medicare Hospital Compare ratings"; SM Paddock, JL Adams, F. Hoces de la Guardia; *BMJ Quality & Safety*; 2015.
-- "Evaluating the Chile Solidario Program: Results Using the Chile Solidario Panel and the Administrative Databases", F. Hoces De La Guardia, A. Hojman, O. Larranaga; *Revista Estudios de Economia*, 2011.
+- "Loss Function-based Evaluation of Physician Report Cards"; F. Hoces de la Guardia, J. Hwang, JL Adams, SM. Paddock. *Health Services and Outcomes Research Methodology*; 2018. [DOI](https://doi.org/10.1007/s10742-018-0179-2)
+- "Optimizing Variance-Bias Trade-off in the TWANG Package for Estimation of Propensity Scores"; L. Parast, D. McCaffrey, L. Burgette, F. Hoces de la Guardia, D. Golinelli, JNV Miles, BA Griffin; *Health Services and Outcomes Research Methodology*; 2017. [DOI](https://doi.org/10.1007/s10742-016-0168-2) [free version](https://pmc.ncbi.nlm.nih.gov/articles/PMC5667923/)
+- "Better-than-average and worse-than-average hospitals may not significantly differ from average hospitals: an analysis of Medicare Hospital Compare ratings"; SM Paddock, JL Adams, F. Hoces de la Guardia; *BMJ Quality & Safety*; 2015. [DOI](https://doi.org/10.1136/bmjqs-2014-003405)
+- "Evaluating the Chile Solidario Program: Results Using the Chile Solidario Panel and the Administrative Databases", F. Hoces De La Guardia, A. Hojman, O. Larranaga; *Revista Estudios de Economia*, 2011. [DOI](https://doi.org/10.4067/s0718-52862011000100006)
 :::
 
 [<i class="bi bi-file-earmark-pdf"></i> Research Statement](files/research-statement.pdf)
