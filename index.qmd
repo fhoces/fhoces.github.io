@@ -1,5 +1,22 @@
 ---
 title: "Fernando Hoces de la Guardia"
+image: files/photo.jpg
+about:
+  template: trestles
+  image-width: 17em
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:fhoces@berkeley.edu
+    - icon: github
+      text: GitHub
+      href: https://github.com/fhoces
+    - icon: mortarboard
+      text: Scholar
+      href: https://scholar.google.com/citations?user=oTWMpjcAAAAJ
+    - icon: bluesky
+      text: Bluesky
+      href: https://bsky.app/profile/fhoces.bsky.social
 ---
 
 ## About Me
@@ -7,10 +24,3 @@ title: "Fernando Hoces de la Guardia"
 I work on the intersection of research transparency, public policy and economics. My main research focuses on how the standardization of results can be used to study publication patterns in economics and on increasing transparency throughout the evidence-to-policy pipeline. I believe economics is entering a new stage in how evidence is reported, and used in policy, and I am excited and thankful to be part of the group of researchers studying and strengthening this link.
 
 I did my PhD in Public Policy at RAND where my dissertation focused on increasing the transparency and reproducibility of policy analysis as a way to strengthen connections between policy and evidence. Before my PhD, I studied economics (U. de Chile BA and Masters and U. of Penn MA) and worked in public policy conducting impact evaluations and economic analysis of various social policies in Chile.
-
-::: links
-[<i class="bi bi-envelope"></i> Email](mailto:fhoces@berkeley.edu)
-[<i class="bi bi-github"></i> GitHub](https://github.com/fhoces)
-[<i class="bi bi-mortarboard"></i> Google Scholar](https://scholar.google.com/citations?user=oTWMpjcAAAAJ)
-[<i class="bi bi-bluesky"></i> Bluesky](https://bsky.app/profile/fhoces.bsky.social)
-:::

@@ -37,7 +37,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-0a6b7249c26820e032cb0bd839ff02b1.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
@@ -313,40 +312,48 @@ ul.task-list li input[type="checkbox"] {
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content" id="quarto-document-content">
-
-
+<div class="quarto-about-trestles">
+  <div class="about-entity">
+    <img src="files/photo.jpg" class="about-image
+  rounded " style="width: 17em;">
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
 <h1 class="title">Fernando Hoces de la Guardia</h1>
 </div>
-
-
-
 <div class="quarto-title-meta">
-
-    
-  
-    
   </div>
-  
-
-
 </header>
-
+    <div class="about-links">
+  <a href="mailto:fhoces@berkeley.edu" class="about-link" rel="" target="">
+    <i class="bi bi-envelope"></i>
+     <span class="about-link-text">Email</span>
+  </a>
+  <a href="https://github.com/fhoces" class="about-link" rel="" target="">
+    <i class="bi bi-github"></i>
+     <span class="about-link-text">GitHub</span>
+  </a>
+  <a href="https://scholar.google.com/citations?user=oTWMpjcAAAAJ" class="about-link" rel="" target="">
+    <i class="bi bi-mortarboard"></i>
+     <span class="about-link-text">Scholar</span>
+  </a>
+  <a href="https://bsky.app/profile/fhoces.bsky.social" class="about-link" rel="" target="">
+    <i class="bi bi-bluesky"></i>
+     <span class="about-link-text">Bluesky</span>
+  </a>
+</div>
+  </div>
+  <div class="about-contents"><main class="content" id="quarto-document-content">
 
 <section id="about-me" class="level2">
-<h2 class="anchored" data-anchor-id="about-me">About Me</h2>
+<h2 data-anchor-id="about-me">About Me</h2>
 <p>I work on the intersection of research transparency, public policy and economics. My main research focuses on how the standardization of results can be used to study publication patterns in economics and on increasing transparency throughout the evidence-to-policy pipeline. I believe economics is entering a new stage in how evidence is reported, and used in policy, and I am excited and thankful to be part of the group of researchers studying and strengthening this link.</p>
 <p>I did my PhD in Public Policy at RAND where my dissertation focused on increasing the transparency and reproducibility of policy analysis as a way to strengthen connections between policy and evidence. Before my PhD, I studied economics (U. de Chile BA and Masters and U. of Penn MA) and worked in public policy conducting impact evaluations and economic analysis of various social policies in Chile.</p>
-<div class="links">
-<p><a href="mailto:fhoces@berkeley.edu"><i class="bi bi-envelope"></i> Email</a> <a href="https://github.com/fhoces"><i class="bi bi-github"></i> GitHub</a> <a href="https://scholar.google.com/citations?user=oTWMpjcAAAAJ"><i class="bi bi-mortarboard"></i> Google Scholar</a> <a href="https://bsky.app/profile/fhoces.bsky.social"><i class="bi bi-bluesky"></i> Bluesky</a></p>
-</div>
 
 
 </section>
-
-</main> <!-- /main -->
+</main></div>
+</div>
+ <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     // Ensure there is a toggle, if there isn't float one in the top right
@@ -362,13 +369,6 @@ ul.task-list li input[type="checkbox"] {
       window.document.body.appendChild(a);
     }
     setColorSchemeToggle(hasAlternateSentinel())
-    const icon = "";
-    const anchorJS = new window.AnchorJS();
-    anchorJS.options = {
-      placement: 'right',
-      icon: icon
-    };
-    anchorJS.add('.anchored');
     const isCodeAnnotation = (el) => {
       for (const clz of el.classList) {
         if (clz.startsWith('code-annotation-')) {                     
