@@ -11,6 +11,9 @@ about:
     - icon: github
       text: GitHub
       href: https://github.com/fhoces
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/fhoces/
     - icon: mortarboard
       text: Scholar
       href: https://scholar.google.com/citations?user=oTWMpjcAAAAJ
