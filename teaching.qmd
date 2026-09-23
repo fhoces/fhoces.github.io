@@ -1,0 +1,13 @@
+---
+title: "Teaching"
+---
+
+## Semester-Long Courses
+
+- Econometrics I at UC Berkeley (EC140), 2022. [Teaching materials](https://ec140s2022.netlify.app)
+- Introduction to Environmental Economics & Policy at UC Berkeley (EEP1/EC3), 2020
+- Econometrics I at Universidad de Chile, 2007, 2008, 2010
+
+Additionally, in the [Industry](industry.qmd) section of this website you can find a collection of courses I have built to teach/refresh myself a collection of tools and methods relevant for industry jobs relevant for someone with my background.
+
+[<i class="bi bi-file-earmark-pdf"></i> Teaching Statement](files/teaching-statement.pdf)

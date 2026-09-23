@@ -1,0 +1,5 @@
+body { font-size: 1.05rem; }
+main { max-width: 820px; }
+.pub-list li { margin-bottom: 0.6rem; }
+.links a { margin-right: 1.1rem; white-space: nowrap; }
+.course-list li { margin-bottom: 0.8rem; }

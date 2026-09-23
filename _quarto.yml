@@ -1,0 +1,44 @@
+project:
+  type: website
+  output-dir: docs
+  resources:
+    - files/*.pdf
+    - .nojekyll
+
+website:
+  title: "Fernando Hoces de la Guardia"
+  site-url: https://fhoces.github.io
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: research.qmd
+        text: Research
+      - href: policy.qmd
+        text: Policy
+      - href: industry.qmd
+        text: Industry
+      - href: teaching.qmd
+        text: Teaching
+      - href: files/resume.pdf
+        text: Resume
+      - href: files/cv.pdf
+        text: CV
+    right:
+      - icon: github
+        href: https://github.com/fhoces
+        aria-label: GitHub
+      - icon: envelope
+        href: mailto:fhoces@berkeley.edu
+        aria-label: Email
+  page-footer:
+    center: "© 2026 Fernando Hoces de la Guardia"
+
+format:
+  html:
+    theme:
+      light: cosmo
+      dark: darkly
+    css: styles.css
+    toc: false
+    smooth-scroll: true
