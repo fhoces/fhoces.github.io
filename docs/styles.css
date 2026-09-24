@@ -11,10 +11,12 @@ body.landing::before {
   inset: 0;
   z-index: -1;
   pointer-events: none;
-  background: url("files/figures/evidence-to-policy-transparent.svg") center 60% / min(1400px, 94vw) auto no-repeat;
-  opacity: 0.09;
+  /* Anchored low so the chain runs through the band below the text card
+     rather than behind it. */
+  background: url("files/figures/evidence-to-policy-transparent.svg") center 92% / min(1300px, 94vw) auto no-repeat;
+  opacity: 0.11;
 }
-body.landing.quarto-dark::before { filter: invert(1); opacity: 0.12; }
+body.landing.quarto-dark::before { filter: invert(1); opacity: 0.14; }
 
 /* Landing page: photo top-left, About Me centered, contact links at the
    bottom of the page. Breaks the trestles template's fixed two-column
@@ -54,7 +56,18 @@ body.landing .about-contents {
      shows up as a stray vertical line down the whole page. */
   border-left: none !important;
   padding-left: 0 !important;
+  /* Frosted panel so the background diagram shows around the text, not
+     through it. --bs-body-bg-rgb flips with the light/dark theme. */
+  background: rgba(var(--bs-body-bg-rgb), 0.86);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  border-radius: 12px;
+  padding: 1.25rem 1.75rem !important;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
+  flex-grow: 0 !important;
 }
+body.landing .about-contents main.content { margin-bottom: 0 !important; }
+body.landing .about-contents section > p:last-child { margin-bottom: 0; }
 body.landing .about-links {
   order: 4 !important;
   width: 100%;
