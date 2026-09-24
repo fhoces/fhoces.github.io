@@ -260,10 +260,6 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html"> 
-<span class="menu-text">Home</span></a>
-  </li>  
-  <li class="nav-item">
     <a class="nav-link active" href="./research.html" aria-current="page"> 
 <span class="menu-text">Research</span></a>
   </li>  
@@ -272,20 +268,20 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Policy</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./industry.html"> 
-<span class="menu-text">Industry</span></a>
-  </li>  
-  <li class="nav-item">
     <a class="nav-link" href="./teaching.html"> 
 <span class="menu-text">Teaching</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./files/resume.pdf"> 
-<span class="menu-text">Resume</span></a>
-  </li>  
-  <li class="nav-item">
     <a class="nav-link" href="./files/cv.pdf"> 
 <span class="menu-text">CV</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./industry.html"> 
+<span class="menu-text">Industry</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./files/resume.pdf"> 
+<span class="menu-text">Resume</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
@@ -335,11 +331,20 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<p>My research has two visible halves: a policy-facing agenda on Open Policy Analysis, and a science-facing agenda on missing results. They are two ends of the same chain. Evidence reaches a decision in two steps: researchers produce findings, and analysts turn a body of findings into the number a policymaker acts on. Open Policy Analysis addressed the second step. It asked whether the reader of a policy estimate can see the data, code, and assumptions behind it, and it built the frameworks and tools that make that possible (<a href="https://doi.org/10.1093/scipol/scaa067">Hoces de la Guardia, Grant and Miguel 2021</a>, <em>Science and Public Policy</em>; the <a href="https://www.nber.org/papers/w33753">Social Science Reproduction Platform</a> <a href="https://web.archive.org/web/20260708055115/https://www.socialsciencereproduction.org/">[archive]</a>). My job market paper addresses the first step: whether the findings the analyst draws on exist in public at all. A cost-benefit analysis can be fully open about its own arithmetic and still rest on a literature in which 58% of what was planned was never reported; it is then transparent about the wrong thing. The two agendas share a diagnosis and a method. The diagnosis is that the evidence-to-policy chain fails mostly at points of reporting and standardization, not at points of causal identification. The method is the same at both ends: make the omitted piece explicit, measure how much is missing, and test low-cost interventions that recover it.</p>
 <section id="job-market-paper" class="level2">
 <h2 class="anchored" data-anchor-id="job-market-paper">Job Market Paper</h2>
 <p><strong>“Beyond Publication Bias: Characterizing and Understanding Missing Results in Economics”</strong><br>
 Hoces de la Guardia, F., Miguel, E., Pathan, G., Silva da Rocha, V., Shaji, A., Sørensen, E., Tungodden, B.<br>
 (manuscript available upon request, slides <a href="https://fhoces.github.io/BITSS-AM-2026-slides/#1">here</a>)</p>
+<p><strong>Key findings</strong> (June 2026 draft). The paper standardizes and tracks every pre-registered hypothesis for a sample of studies in the AEA RCT Registry, then runs its own RCT to find the binding constraints on reporting.</p>
+<ul>
+<li>5,048 pre-registered hypotheses from 317 studies.</li>
+<li>58% of hypotheses have no publicly available results 8 to 9 years after pre-registration (42% available).</li>
+<li>Counter to the publication-bias story, 64.5% of the publicly available findings are null results.</li>
+<li>An RCT tested three barriers: awareness, engagement, and resources. Only engagement (low-cost, tailored outreach to authors about their specific missing findings) significantly raised reporting: +6.2 percentage points in hypotheses with public results (11% of missing hypotheses). Authors explained a further 18% of missing hypotheses as planned research that never occurred. Awareness had a smaller positive effect on explanations only; research-assistant resources had no significant effect.</li>
+<li>Even with the AEA RCT Registry in place since 2013, stronger incentives and infrastructure are needed for pre-registered plans to turn into public evidence.</li>
+</ul>
 <div class="callout callout-style-simple callout-note callout-titled">
 <div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
@@ -356,6 +361,16 @@ Hoces de la Guardia, F., Miguel, E., Pathan, G., Silva da Rocha, V., Shaji, A., 
 </div>
 </div>
 </div>
+<p><strong>Next steps:</strong> automating hypothesis standardization with LLMs (proposal under review); a second meta-RCT with journals and funders on adoption of the Results Reports template; and extending standardization beyond RCTs to quasi-experimental and descriptive work. <a href="https://doi.org/10.1257/rct.13755-2.1">Pre-analysis plan</a> for the spillover follow-up.</p>
+</section>
+<section id="one-program-three-extensions" class="level2">
+<h2 class="anchored" data-anchor-id="one-program-three-extensions">One Program, Three Extensions</h2>
+<p>Seen this way, the work is one research program with three lines of extension.</p>
+<ul>
+<li><strong>From the academic file drawer to the policy file drawer.</strong> Much policy-relevant evidence never reaches a journal; agencies commission evaluations that are delivered, used, and filed. The hypothesis-tracking method and the engagement intervention from the job market paper transfer directly to this gray literature.</li>
+<li><strong>Standardization as the hinge between the two agendas.</strong> An analysis can only be open about inputs that are stated in comparable terms. The Results Reports developed for the job market paper, which ask authors to state hypotheses, populations, and outcome definitions in a fixed format, are the same device an open policy analysis needs at its input stage, and the answer to the “dueling certitudes” (Manski 2013) that arise when studies report different quantities under the same name.</li>
+<li><strong>The cost of transparency.</strong> Both agendas turn on what transparency costs the producer, since every intervention that failed in the RCT failed on that margin. The LLM standardization project tests whether that cost can be driven low enough to make complete reporting the default rather than the exception.</li>
+</ul>
 </section>
 <section id="other-ongoing-research" class="level2">
 <h2 class="anchored" data-anchor-id="other-ongoing-research">Other Ongoing Research</h2>

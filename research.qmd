@@ -2,17 +2,37 @@
 title: "Research"
 ---
 
+My research has two visible halves: a policy-facing agenda on Open Policy Analysis, and a science-facing agenda on missing results. They are two ends of the same chain. Evidence reaches a decision in two steps: researchers produce findings, and analysts turn a body of findings into the number a policymaker acts on. Open Policy Analysis addressed the second step. It asked whether the reader of a policy estimate can see the data, code, and assumptions behind it, and it built the frameworks and tools that make that possible ([Hoces de la Guardia, Grant and Miguel 2021](https://doi.org/10.1093/scipol/scaa067), *Science and Public Policy*; the [Social Science Reproduction Platform](https://www.nber.org/papers/w33753) [[archive]](https://web.archive.org/web/20260708055115/https://www.socialsciencereproduction.org/)). My job market paper addresses the first step: whether the findings the analyst draws on exist in public at all. A cost-benefit analysis can be fully open about its own arithmetic and still rest on a literature in which 58% of what was planned was never reported; it is then transparent about the wrong thing. The two agendas share a diagnosis and a method. The diagnosis is that the evidence-to-policy chain fails mostly at points of reporting and standardization, not at points of causal identification. The method is the same at both ends: make the omitted piece explicit, measure how much is missing, and test low-cost interventions that recover it.
+
 ## Job Market Paper
 
 **"Beyond Publication Bias: Characterizing and Understanding Missing Results in Economics"**\
 Hoces de la Guardia, F., Miguel, E., Pathan, G., Silva da Rocha, V., Shaji, A., Sørensen, E., Tungodden, B.\
 (manuscript available upon request, slides [here](https://fhoces.github.io/BITSS-AM-2026-slides/#1))
 
+**Key findings** (June 2026 draft). The paper standardizes and tracks every pre-registered hypothesis for a sample of studies in the AEA RCT Registry, then runs its own RCT to find the binding constraints on reporting.
+
+- 5,048 pre-registered hypotheses from 317 studies.
+- 58% of hypotheses have no publicly available results 8 to 9 years after pre-registration (42% available).
+- Counter to the publication-bias story, 64.5% of the publicly available findings are null results.
+- An RCT tested three barriers: awareness, engagement, and resources. Only engagement (low-cost, tailored outreach to authors about their specific missing findings) significantly raised reporting: +6.2 percentage points in hypotheses with public results (11% of missing hypotheses). Authors explained a further 18% of missing hypotheses as planned research that never occurred. Awareness had a smaller positive effect on explanations only; research-assistant resources had no significant effect.
+- Even with the AEA RCT Registry in place since 2013, stronger incentives and infrastructure are needed for pre-registered plans to turn into public evidence.
+
 ::: {.callout-note collapse="true" appearance="simple"}
 ## Abstract
 
 What scientists choose not to publish can be as important as what they do publish. This study introduces a novel measure of the reporting of research results in economics, and investigates the causes behind under-reporting. Across over 5,048 pre-registered hypotheses from 317 studies on the American Economic Association RCT Trial Registry that were encoded, we first show that only 42% of hypotheses, on average across studies, have publicly available results 8 to 9 years after pre-registration. Around 64.5% of these publicly available findings are null results (i.e., not statistically significant), contrary to widespread concerns about the non-reporting of null results. An RCT was carried out to test three plausible barriers to full reporting, namely, a lack of awareness, engagement, or resources. An intervention in which our team engaged directly with the authors' research and their under-reported findings increased the share of hypotheses with publicly available results by 6.2 percentage points (11% of the missing hypotheses), though most of this increase reflected results that already existed but were buried or previously observed; genuinely new estimates account for only 2.5 percentage points. Authors explained a further 18% of missing hypotheses as cases where the planned research never occurred; these explanations document why a result is absent rather than providing it, and although they do little for publication bias, they help limit research waste by creating a record of which planned studies were never carried out. Neither a light-touch "awareness" intervention nor a more expensive research-assistance intervention added to reporting, indicating that recovery required hands-on engagement. Together, the findings indicate that the majority of pre-registered hypotheses in economics remain unreported, with 42% still unaccounted for even after our most intensive arm; that under-reporting is more complex than a simple reluctance to report nulls; and that recovering missing results is difficult and labor-intensive rather than low-cost. We conclude that there is still need for stronger incentives and infrastructure to ensure that pre-registered scientific plans translate into publicly accessible evidence. Toward that end, this study provides prototypes of how standardized results reporting could be incorporated into economics.
 :::
+
+**Next steps:** automating hypothesis standardization with LLMs (proposal under review); a second meta-RCT with journals and funders on adoption of the Results Reports template; and extending standardization beyond RCTs to quasi-experimental and descriptive work. [Pre-analysis plan](https://doi.org/10.1257/rct.13755-2.1) for the spillover follow-up.
+
+## One Program, Three Extensions
+
+Seen this way, the work is one research program with three lines of extension.
+
+- **From the academic file drawer to the policy file drawer.** Much policy-relevant evidence never reaches a journal; agencies commission evaluations that are delivered, used, and filed. The hypothesis-tracking method and the engagement intervention from the job market paper transfer directly to this gray literature.
+- **Standardization as the hinge between the two agendas.** An analysis can only be open about inputs that are stated in comparable terms. The Results Reports developed for the job market paper, which ask authors to state hypotheses, populations, and outcome definitions in a fixed format, are the same device an open policy analysis needs at its input stage, and the answer to the "dueling certitudes" (Manski 2013) that arise when studies report different quantities under the same name.
+- **The cost of transparency.** Both agendas turn on what transparency costs the producer, since every intervention that failed in the RCT failed on that margin. The LLM standardization project tests whether that cost can be driven low enough to make complete reporting the default rather than the exception.
 
 ## Other Ongoing Research
 
