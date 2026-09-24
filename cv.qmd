@@ -2,5 +2,5 @@
 title: "CV and Resume"
 ---
 
-- [<i class="bi bi-file-earmark-pdf"></i> **Curriculum Vitae**](files/cv.pdf): full academic CV (4 pages).
-- [<i class="bi bi-file-earmark-pdf"></i> **Resume**](files/resume.pdf): short version for industry and policy roles (2 pages).
+- [<i class="bi bi-file-earmark-pdf"></i> **Curriculum Vitae**](files/cv.pdf)
+- [<i class="bi bi-file-earmark-pdf"></i> **Resume**](files/resume.pdf)
