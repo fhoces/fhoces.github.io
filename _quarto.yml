@@ -16,14 +16,14 @@ website:
         text: Research
       - href: policy.qmd
         text: Policy
-      - href: industry.qmd
-        text: Industry
       - href: teaching.qmd
         text: Teaching
-      - href: files/resume.pdf
-        text: Resume
       - href: files/cv.pdf
         text: CV
+      - href: industry.qmd
+        text: Industry
+      - href: files/resume.pdf
+        text: Resume
     right:
       - icon: github
         href: https://github.com/fhoces
