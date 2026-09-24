@@ -1,5 +1,5 @@
 ---
-title: "Teaching"
+title: "Teaching and Learning"
 ---
 
 ## Semester-Long Courses
@@ -8,9 +8,24 @@ title: "Teaching"
 - Introduction to Environmental Economics & Policy at UC Berkeley (EEP1/EC3), 2020
 - Econometrics I at Universidad de Chile, 2007, 2008, 2010
 
-Additionally, in the [Industry](industry.qmd) section of this website you can find a collection of courses I have built to teach/refresh myself a collection of tools and methods relevant for industry jobs relevant for someone with my background.
+Additionally, [below](#self-directed-courses) you can find a collection of courses I have built to teach/refresh myself a collection of tools and methods relevant for industry jobs relevant for someone with my background.
 
 [<i class="bi bi-file-earmark-pdf"></i> Teaching Statement](files/teaching-statement.pdf)
+
+## Self-Directed Courses {#self-directed-courses}
+
+I am also exploring private-sector positions in the Bay Area. To support this transition, I have been building a series of short, self-directed courses to refresh and develop skills relevant to the roles I'm targeting — policy researcher, applied policy economist and data scientist positions at technology platforms.
+
+The courses below were built using Claude Code. Each course is a set of xaringan slide decks with worked examples, R/Python/SQL exercises, and interview-style practice questions, all threaded through industry-related applications.
+
+::: course-list
+- [**ML Refresher: Discrimination and Fairness**](https://fhoces.github.io/ml-discrimination-refresher/) — Bias-variance tradeoff, linear models, model evaluation, fairness frameworks, and the impossibility theorem. Every module pairs an ML concept with a discrimination scenario.
+- [**Discrimination in Labor Economics Refresher**](https://fhoces.github.io/discrimination-econ-refresher/) — Becker, Phelps, audit studies (Ge et al. 2016), Oaxaca-Blinder decomposition (Cook et al. 2021), algorithmic audits, and the practitioner playbook.
+- [**Intro to Experiments in Industry**](https://fhoces.github.io/experimentation-refresher/) — Potential outcomes and the experimental ideal, SUTVA and interference, cluster/switchback designs, regression adjustment and CUPED, ITT vs LATE, and external validity.
+- [**Causal Inference Beyond A/B**](https://fhoces.github.io/causal-inference-beyond-ab/) — Deep-dive course on causal inference for platform settings: modern DiD, synthetic control, causal forests, policy learning, and matrix completion.
+- [**Intro to SQL**](https://fhoces.github.io/sql-industry-prep/) — SELECT through window functions, drilled on a synthetic ride-sharing schema. Five modules of interview-style questions designed to be answerable from a cold start in under two minutes each. [One pager](https://fhoces.github.io/sql-industry-prep/sql-cheatsheet.pdf).
+- [**Python for an R User**](https://fhoces.github.io/python-for-r-users/) — The pandas + statsmodels stack, framed as a dplyr-to-pandas translation. Covers data wrangling, joins, OLS, A/B test inference, and difference-in-differences, with end-to-end interview scenarios.
+:::
 
 <!-- DRAFT (2026-09-24): first version drafted from Fernando's own practice; rewrite in your voice before publishing. -->
 
@@ -18,7 +33,7 @@ Additionally, in the [Industry](industry.qmd) section of this website you can fi
 
 *My current thinking, which I expect to keep revising as the tools change.*
 
-Over the past year I have used AI coding agents (mainly Claude Code) to build every course in the [Industry](industry.qmd) section, and a set of math materials for my children. That experience has left me both more optimistic and more cautious than when I started.
+Over the past year I have used AI coding agents (mainly Claude Code) to build every course in the [Self-Directed Courses](#self-directed-courses) section above, and a set of math materials for my children. That experience has left me both more optimistic and more cautious than when I started.
 
 **Promises**
 

@@ -17,11 +17,9 @@ website:
       - href: policy.qmd
         text: Policy
       - href: teaching.qmd
-        text: Teaching
+        text: Teaching and Learning
       - href: files/cv.pdf
         text: CV
-      - href: industry.qmd
-        text: Industry
       - href: files/resume.pdf
         text: Resume
     right:
