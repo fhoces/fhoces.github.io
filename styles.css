@@ -4,19 +4,19 @@ main { max-width: 820px; }
 .links a { margin-right: 1.1rem; white-space: nowrap; }
 .course-list li { margin-bottom: 0.8rem; }
 
-/* Landing page: faint evidence-to-policy diagram as a fixed background */
-body.landing::before {
-  content: "";
-  position: fixed;
-  inset: 0;
-  z-index: -1;
-  pointer-events: none;
-  /* Anchored low so the chain runs through the band below the text card
-     rather than behind it. */
-  background: url("files/figures/evidence-to-policy-transparent.svg") center 92% / min(1300px, 94vw) auto no-repeat;
-  opacity: 0.11;
+/* Landing page: the evidence-to-policy diagram as an illustration under
+   the About Me text (a background version hid either the text or the
+   figure). The SVG has a transparent background and black ink, so dark
+   mode just inverts it. */
+body.landing .e2p-figure {
+  display: block;
+  width: 100%;
+  max-width: 720px;
+  height: auto;
+  margin: 2rem auto 0 auto;
+  opacity: 0.85;
 }
-body.landing.quarto-dark::before { filter: invert(1); opacity: 0.14; }
+body.landing.quarto-dark .e2p-figure { filter: invert(1); opacity: 0.8; }
 
 /* Landing page: photo top-left, About Me centered, contact links at the
    bottom of the page. Breaks the trestles template's fixed two-column
@@ -56,14 +56,6 @@ body.landing .about-contents {
      shows up as a stray vertical line down the whole page. */
   border-left: none !important;
   padding-left: 0 !important;
-  /* Frosted panel so the background diagram shows around the text, not
-     through it. --bs-body-bg-rgb flips with the light/dark theme. */
-  background: rgba(var(--bs-body-bg-rgb), 0.86);
-  backdrop-filter: blur(6px);
-  -webkit-backdrop-filter: blur(6px);
-  border-radius: 12px;
-  padding: 1.25rem 1.75rem !important;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
   flex-grow: 0 !important;
 }
 body.landing .about-contents main.content { margin-bottom: 0 !important; }
