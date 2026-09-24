@@ -18,10 +18,8 @@ website:
         text: Policy
       - href: teaching.qmd
         text: Teaching and Learning
-      - href: files/cv.pdf
-        text: CV
-      - href: files/resume.pdf
-        text: Resume
+      - href: cv.qmd
+        text: CV and Resume
     right:
       - icon: github
         href: https://github.com/fhoces
