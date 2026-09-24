@@ -8,7 +8,7 @@ My research has two visible halves: a policy-facing agenda on Open Policy Analys
 
 **"Beyond Publication Bias: Characterizing and Understanding Missing Results in Economics"**\
 Hoces de la Guardia, F., Miguel, E., Pathan, G., Silva da Rocha, V., Shaji, A., Sørensen, E., Tungodden, B.\
-(manuscript available upon request, slides [here](https://fhoces.github.io/BITSS-AM-2026-slides/#1))
+(manuscript available upon request, slides [here](https://fhoces.github.io/BITSS-AM-2026-slides/#1), [talk at the BITSS Annual Meeting 2026](https://www.youtube.com/watch?v=JqyH0s2f8TI&t=15s)[, [study results page](file:///Users/fernando/Desktop/sandbox/RGPB_repos/rgpb-phase2-clean-analyse/docs/policy-recs/lessons/index.html)]{.content-visible when-profile="local"}[, study results page coming soon]{.content-hidden when-profile="local"})
 
 **Key findings** (June 2026 draft). The paper standardizes and tracks every pre-registered hypothesis for a sample of studies in the AEA RCT Registry, then runs its own RCT to find the binding constraints on reporting.
 

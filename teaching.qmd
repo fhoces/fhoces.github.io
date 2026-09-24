@@ -11,3 +11,29 @@ title: "Teaching"
 Additionally, in the [Industry](industry.qmd) section of this website you can find a collection of courses I have built to teach/refresh myself a collection of tools and methods relevant for industry jobs relevant for someone with my background.
 
 [<i class="bi bi-file-earmark-pdf"></i> Teaching Statement](files/teaching-statement.pdf)
+
+<!-- DRAFT (2026-09-24): first version drafted from Fernando's own practice; rewrite in your voice before publishing. -->
+
+## Promises and Perils of AI for Teaching and Learning
+
+*My current thinking, which I expect to keep revising as the tools change.*
+
+Over the past year I have used AI coding agents (mainly Claude Code) to build every course in the [Industry](industry.qmd) section, and a set of math materials for my children. That experience has left me both more optimistic and more cautious than when I started.
+
+**Promises**
+
+- **Tailoring at almost no cost.** A course can be built around one learner's goal, level and running example. Materials that once took a semester to prepare now take days, so it becomes realistic to write a course for an audience of one.
+- **Explanations that adapt.** When an explanation does not land, the tool can rewrite it immediately with a concrete worked example. I keep a running log of the concepts that confused me, and the assistant uses it to explain related ideas more plainly the next time.
+- **Practice on demand.** Drills, worksheets, mock interviews and interactive explorers can be generated from a single source, so the bottleneck for practice is no longer the instructor's time.
+
+**Perils**
+
+- **Fluent is not the same as correct.** AI-generated materials look finished long before they are right. In one batch of seven slide decks, every deck passed the tool's own checks and every deck still had visible errors. Someone who can actually check the material has to do so.
+- **Outsourcing the struggle.** Much of learning happens in the effort of working a problem out. An assistant that always supplies the answer removes that effort, and with it the feeling of *not* understanding that tells a learner where to focus.
+- **Output without understanding.** A student, or an instructor, can now produce a polished artifact they cannot explain. Assessments that grade the artifact can no longer tell the two apart.
+
+**What I do about it**
+
+- **Teach verification as a skill.** Checking AI output against golden datasets, reproducing results independently and reviewing changes to the *data*, not only the code, is a module in its own right in my [Administrative Data Pipelines](https://github.com/fhoces/admin-data-pipelines) course.
+- **Keep the thinking with the learner.** I use AI to build materials and generate practice, but the learner works the problem and explains the answer back.
+- **Disclose how AI was used, object by object.** Who conceived something, who executed it and who checked it are different questions. This is the same transparency principle behind my work on [Open Policy Analysis](policy.qmd).
