@@ -1,5 +1,6 @@
 ---
 title: "Fernando Hoces de la Guardia"
+body-classes: landing
 image: files/photo.jpg
 about:
   template: trestles
