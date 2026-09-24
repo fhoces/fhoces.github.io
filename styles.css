@@ -15,3 +15,63 @@ body.landing::before {
   opacity: 0.09;
 }
 body.landing.quarto-dark::before { filter: invert(1); opacity: 0.12; }
+
+/* Landing page: photo top-left, About Me centered, contact links at the
+   bottom of the page. Breaks the trestles template's fixed two-column
+   layout apart via display:contents so each piece can be placed on its
+   own. The template's own rule sets .about-entity to display:flex with
+   equal specificity, loaded after ours, so contents needs !important to
+   actually win. */
+body.landing .quarto-about-trestles {
+  display: flex !important;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  padding-top: 1rem;
+}
+body.landing .about-entity { display: contents !important; }
+body.landing .about-entity .about-image {
+  position: fixed !important;
+  top: 76px;
+  left: 1.25rem;
+  width: 6.5em !important;
+  height: 6.5em !important;
+  margin: 0 !important;
+  order: 1 !important;
+  z-index: 5;
+}
+body.landing #title-block-header {
+  order: 2 !important;
+  width: 100%;
+  text-align: center;
+}
+body.landing .about-contents {
+  order: 3 !important;
+  max-width: 700px;
+  width: 100%;
+  /* trestles' own rule put a divider here to separate the sidebar photo
+     column from the text column; with the layout broken apart above it
+     shows up as a stray vertical line down the whole page. */
+  border-left: none !important;
+  padding-left: 0 !important;
+}
+body.landing .about-links {
+  order: 4 !important;
+  width: 100%;
+  display: flex !important;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.75rem 1.1rem;
+  margin-top: 2.5rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid rgba(127, 127, 127, 0.25);
+}
+/* Narrow screens: the fixed corner photo would sit under the centered
+   title text, so put it back in normal flow, centered above the title. */
+@media (max-width: 576px) {
+  body.landing .about-entity .about-image {
+    position: static !important;
+    display: block;
+    margin: 0 auto 1rem auto !important;
+  }
+}

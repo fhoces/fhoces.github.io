@@ -12,8 +12,6 @@ website:
   site-url: https://fhoces.github.io
   navbar:
     left:
-      - href: index.qmd
-        text: Home
       - href: research.qmd
         text: Research
       - href: policy.qmd
