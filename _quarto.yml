@@ -2,10 +2,10 @@ project:
   type: website
   output-dir: docs
   resources:
-    - files/*.pdf
-    - files/*.jpg
-    - files/figures/*
-    - .nojekyll
+    - /files/*.pdf
+    - /files/*.jpg
+    - /files/figures/*
+    - /.nojekyll
 
 website:
   title: "Fernando Hoces de la Guardia"
