@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 108" width="1000" height="108" role="img" aria-labelledby="t d">
+<title id="t">Questions that were never reported</title>
+<desc id="d">A grey bar for the published causal literature, above a dashed box marked with a question mark: the questions from the original research designs that were never reported, whose size is unknown.</desc>
+<rect width="1000" height="108" fill="#FFFFFF"/>
+<rect x="0" y="0" width="1000" height="60" fill="#E0E0E0"/>
+<rect x="0.75" y="62.75" width="998.5" height="40.5" fill="none" stroke="#333333" stroke-width="1.5" stroke-dasharray="4 3"/>
+<text x="500.0" y="83.0" text-anchor="middle" dominant-baseline="central" font-size="22" fill="#333333" font-family="'Source Sans Pro','Helvetica Neue',Helvetica,Arial,sans-serif" font-weight="700">?</text>
+</svg>

@@ -4,6 +4,7 @@ project:
   resources:
     - files/*.pdf
     - files/*.jpg
+    - files/figures/*
     - .nojekyll
 
 website:
