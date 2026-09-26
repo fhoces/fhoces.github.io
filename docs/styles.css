@@ -27,12 +27,12 @@ body.landing.quarto-dark .e2p-figure { filter: invert(1); opacity: 0.8; }
   display: none;
   position: absolute;
   height: auto;
-  opacity: 0.14;
+  opacity: 0.3;
   z-index: -1;
   pointer-events: none;
   user-select: none;
 }
-body.quarto-dark #e2p-bg { filter: invert(1) hue-rotate(180deg); opacity: 0.2; }
+body.quarto-dark #e2p-bg { filter: invert(1) hue-rotate(180deg); opacity: 0.35; }
 body.landing .e2p-figure, #e2p-bg { view-transition-name: e2p; }
 
 /* Landing page: photo top-left, About Me centered, contact links at the
