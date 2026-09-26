@@ -51,8 +51,8 @@ body.landing .about-entity .about-image {
   position: absolute !important;
   top: 76px;
   left: 1.25rem;
-  width: 6.5em !important;
-  height: 6.5em !important;
+  width: 13em !important;
+  height: 13em !important;
   margin: 0 !important;
   order: 1 !important;
   z-index: 5;
@@ -89,9 +89,9 @@ body.landing .about-links {
   padding-top: 1.5rem;
   border-top: 1px solid rgba(127, 127, 127, 0.25);
 }
-/* Narrow screens: the fixed corner photo would sit under the centered
-   title text, so put it back in normal flow, centered above the title. */
-@media (max-width: 576px) {
+/* Below 1240px the corner photo would cover the name and the diagram, so
+   put it back in normal flow, centered above the title. */
+@media (max-width: 1240px) {
   body.landing .about-entity .about-image {
     position: static !important;
     display: block;
