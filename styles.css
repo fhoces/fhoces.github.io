@@ -18,6 +18,23 @@ body.landing .e2p-figure {
 }
 body.landing.quarto-dark .e2p-figure { filter: invert(1); opacity: 0.8; }
 
+/* Research page: the same diagram, Research highlighted, faded behind the
+   text at the exact position and size the landing page gives it (placed by
+   the script in research.qmd). Both images share a view-transition name, so
+   browsers that support cross-document transitions morph one into the other.
+   hue-rotate keeps the blue highlight blue after the dark-mode invert. */
+#e2p-bg {
+  display: none;
+  position: absolute;
+  height: auto;
+  opacity: 0.14;
+  z-index: -1;
+  pointer-events: none;
+  user-select: none;
+}
+body.quarto-dark #e2p-bg { filter: invert(1) hue-rotate(180deg); opacity: 0.2; }
+body.landing .e2p-figure, #e2p-bg { view-transition-name: e2p; }
+
 /* Landing page: photo top-left, About Me centered, contact links at the
    bottom of the page. Breaks the trestles template's fixed two-column
    layout apart via display:contents so each piece can be placed on its

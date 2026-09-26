@@ -30,3 +30,21 @@ I work on the intersection of research transparency, public policy and economics
 I did my PhD in Public Policy at RAND where my dissertation focused on increasing the transparency and reproducibility of policy analysis as a way to strengthen connections between policy and evidence. Before my PhD, I studied economics (U. de Chile BA and Masters and U. of Penn MA) and worked in public policy conducting impact evaluations and economic analysis of various social policies in Chile.
 
 ![](files/figures/evidence-to-policy-transparent.svg){.e2p-figure fig-alt="Diagram of the evidence-to-policy chain: Truth feeds Research, Research feeds Policy Analysis, and the same Policy Analysis leads Policy Maker 1 to support a policy and Policy Maker 2 to oppose it."}
+
+```{=html}
+<style>@view-transition { navigation: auto; }</style>
+<script>
+// Remember where the diagram sits on screen when leaving for the Research
+// page, which draws a faded copy at the same spot (see research.qmd).
+document.addEventListener("click", function (e) {
+  var a = e.target.closest("a"), f = document.querySelector(".e2p-figure");
+  if (!a || !f || !/\/research\.html$/.test(a.pathname)) return;
+  var r = f.getBoundingClientRect();
+  try {
+    sessionStorage.setItem("e2p-from-landing", JSON.stringify({
+      top: r.top, left: r.left, width: r.width,
+      vw: document.documentElement.clientWidth, t: Date.now() }));
+  } catch (_) {}
+});
+</script>
+```
