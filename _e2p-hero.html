@@ -1,27 +1,30 @@
 <script>
 // Pinned evidence-to-policy diagram (landing, Research and Policy pages).
-// The page opens with its title, then the diagram; the content starts
-// below them and scrolls up over the diagram while the diagram fades to a
-// background strength (the two strengths are set in styles.css). Every page
-// places it identically, so moving between pages keeps it in the same spot.
+// The page opens with its title, then the diagram, then the text, which
+// scrolls up over the diagram while the diagram fades out completely
+// (strengths in styles.css). From 576px up every page places it at the
+// same spot, so moving between pages keeps it still.
 (function () {
   var img = document.getElementById("e2p-hero");
   if (!img) return;
-  document.body.appendChild(img);  var ASPECT = 202.138 / 484.67, BAND = 90, span = 1;
+  document.body.appendChild(img);
+  var ASPECT = 202.138 / 484.67, BAND = 104, GAP = 16, span = 1;
   function layout() {
-    var vw = document.documentElement.clientWidth, vh = window.innerHeight;
+    var vw = document.documentElement.clientWidth;
     var header = document.getElementById("quarto-header");
     var title = document.getElementById("title-block-header");
     var navH = header ? header.offsetHeight : 0;
     var titleBottom = title ? title.getBoundingClientRect().bottom + window.scrollY : navH;
-    var w = Math.min(720, vw * 0.9), h = w * ASPECT;
-    // The title gets a band of BAND px under the navbar; the diagram is
-    // centred between that band and the content, which starts at 80% of the
-    // window. Same spot on every page unless a title outgrows the band.
-    var regionTop = navH + BAND;
-    var contentTop = Math.max(vh * 0.8, regionTop + h + 60);
-    var top = Math.max(regionTop + (contentTop - regionTop - h) / 2, titleBottom + 12);
-    contentTop = Math.max(contentTop, top + h + 30);
+    var w = Math.min(540, vw * 0.8), h = w * ASPECT;
+    // Just under the title. From 576px up every title fits in a BAND px band
+    // under the navbar, so the diagram sits at the same spot on every page;
+    // on phones the landing title block is much taller, so each page puts it
+    // right under its own title instead.
+    var band = vw >= 576 ? navH + BAND : 0;
+    var top = Math.max(titleBottom, band) + GAP;
+    var contentTop = top + h + 32;
+    // The diagram is fully transparent once the text's first line reaches
+    // its top edge.
     span = contentTop - top;
     img.style.width = w + "px";
     img.style.left = (vw - w) / 2 + "px";
@@ -30,9 +33,10 @@
     document.body.classList.add("e2p-on");
     fade();
   }
-
   function fade() {
-    var t = Math.min(1, Math.max(0, window.scrollY / (0.9 * span)));
+    // A page too short to scroll that far finishes the fade at its bottom.
+    var room = document.documentElement.scrollHeight - window.innerHeight;
+    var t = Math.min(1, Math.max(0, window.scrollY / Math.max(1, Math.min(span, room))));
     document.body.style.setProperty("--e2p-t", t.toFixed(3));
   }
   layout();
