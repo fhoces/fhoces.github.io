@@ -1,74 +1,11 @@
 ---
 title: "Research"
+include-in-header: _e2p-head.html
+include-after-body: _e2p-hero.html
 ---
 
 ```{=html}
-<style>@view-transition { navigation: auto; }</style>
-<img id="e2p-bg" src="files/figures/evidence-to-policy-highlight-research-transparent.svg" alt="" aria-hidden="true">
-<script>
-// Faded copy of the landing page's diagram, with Research highlighted, drawn
-// exactly where the landing page shows it. Arriving from the landing page, it
-// uses the position recorded at the click (index.qmd), so the figure appears
-// not to move. Otherwise it measures the landing layout in a hidden frame at
-// this window's size.
-(function () {
-  var img = document.getElementById("e2p-bg");
-  document.body.appendChild(img);
-  function place(p) {
-    img.style.top = p.top + "px"; img.style.left = p.left + "px";
-    img.style.width = p.width + "px"; img.style.display = "block";
-  }
-  var vw = document.documentElement.clientWidth, rec = null;
-  try {
-    rec = JSON.parse(sessionStorage.getItem("e2p-from-landing"));
-    sessionStorage.removeItem("e2p-from-landing");
-  } catch (_) {}
-  var fresh = rec && rec.vw === vw && Date.now() - rec.t < 10000;
-  if (fresh) place(rec);
-
-  var frame = null;
-  function measure() {
-    var f = frame.contentDocument && frame.contentDocument.querySelector(".e2p-figure");
-    if (!f || !f.complete) return setTimeout(measure, 50);
-    var r = f.getBoundingClientRect();
-    place({ top: r.top, left: r.left, width: r.width });
-  }
-  function openFrame() {
-    frame = document.createElement("iframe");
-    frame.setAttribute("aria-hidden", "true"); frame.tabIndex = -1;
-    frame.style.cssText = "position:absolute;left:-10000px;top:0;visibility:hidden;border:0;";
-    frame.style.width = document.documentElement.clientWidth + "px";
-    frame.style.height = window.innerHeight + "px";
-    // The landing page shifts a few px after load (navbar padding script), so
-    // measure again once it has settled.
-    frame.onload = function () { measure(); setTimeout(measure, 400); setTimeout(measure, 1500); };
-    frame.src = "index.html";
-    document.body.appendChild(frame);
-  }
-  if (!fresh) openFrame();
-  // Light and dark themes use different fonts, which moves the landing
-  // figure, so re-measure in a fresh frame (reloading the old one kept a
-  // stale layout in testing).
-  var dark = document.body.classList.contains("quarto-dark");
-  new MutationObserver(function () {
-    var d = document.body.classList.contains("quarto-dark");
-    if (d === dark) return;
-    dark = d;
-    if (frame) frame.remove();
-    openFrame();
-  }).observe(document.body, { attributes: true, attributeFilter: ["class"] });
-  var timer;
-  window.addEventListener("resize", function () {
-    clearTimeout(timer);
-    timer = setTimeout(function () {
-      if (!frame) return openFrame();
-      frame.style.width = document.documentElement.clientWidth + "px";
-      frame.style.height = window.innerHeight + "px";
-      requestAnimationFrame(measure);
-    }, 150);
-  });
-})();
-</script>
+<img id="e2p-hero" src="files/figures/evidence-to-policy-highlight-research-transparent.svg" alt="" aria-hidden="true">
 ```
 
 My research has two visible halves: a policy-facing agenda on Open Policy Analysis, and a science-facing agenda on missing results. They are two ends of the same chain. Evidence reaches a decision in two steps: researchers produce findings, and analysts turn a body of findings into the number a policymaker acts on. Open Policy Analysis addressed the second step. It asked whether the reader of a policy estimate can see the data, code, and assumptions behind it, and it built the frameworks and tools that make that possible ([Hoces de la Guardia, Grant and Miguel 2021](https://doi.org/10.1093/scipol/scaa067), *Science and Public Policy*; the [Social Science Reproduction Platform](https://www.nber.org/papers/w33753) [[archive]](https://web.archive.org/web/20260708055115/https://www.socialsciencereproduction.org/)). My job market paper addresses the first step: whether the findings the analyst draws on exist in public at all. A cost-benefit analysis can be fully open about its own arithmetic and still rest on a literature in which 58% of what was planned was never reported; it is then transparent about the wrong thing. The two agendas share a diagnosis and a method. The diagnosis is that the evidence-to-policy chain fails mostly at points of reporting and standardization, not at points of causal identification. The method is the same at both ends: make the omitted piece explicit, measure how much is missing, and test which interventions actually recover it, and at what cost.

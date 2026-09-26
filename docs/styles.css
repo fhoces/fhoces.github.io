@@ -4,36 +4,31 @@ main { max-width: 820px; }
 .links a { margin-right: 1.1rem; white-space: nowrap; }
 .course-list li { margin-bottom: 0.8rem; }
 
-/* Landing page: the evidence-to-policy diagram as an illustration under
-   the About Me text (a background version hid either the text or the
-   figure). The SVG has a transparent background and black ink, so dark
-   mode just inverts it. */
-body.landing .e2p-figure {
-  display: block;
-  width: 100%;
-  max-width: 720px;
-  height: auto;
-  margin: 2rem auto 0 auto;
-  opacity: 0.85;
-}
-body.landing.quarto-dark .e2p-figure { filter: invert(1); opacity: 0.8; }
-
-/* Research page: the same diagram, Research highlighted, faded behind the
-   text at the exact position and size the landing page gives it (placed by
-   the script in research.qmd). Both images share a view-transition name, so
-   browsers that support cross-document transitions morph one into the other.
-   hue-rotate keeps the blue highlight blue after the dark-mode invert. */
-#e2p-bg {
+/* Evidence-to-policy diagram pinned behind the landing, Research and Policy
+   pages: alone in the first screen, then fading from --e2p-hi to --e2p-lo as
+   the content scrolls up over it. Placed and faded by _e2p-hero.html. The
+   SVGs have transparent backgrounds and black ink, so dark mode inverts. */
+#e2p-hero {
   display: none;
-  position: absolute;
+  position: fixed;
   height: auto;
-  opacity: 0.3;
   z-index: -1;
   pointer-events: none;
   user-select: none;
+  view-transition-name: e2p;
+  --e2p-hi: 0.85;
+  --e2p-lo: 0.3;
+  opacity: calc(var(--e2p-hi) - (var(--e2p-hi) - var(--e2p-lo)) * var(--e2p-t, 0));
 }
-body.quarto-dark #e2p-bg { filter: invert(1) hue-rotate(180deg); opacity: 0.35; }
-body.landing .e2p-figure, #e2p-bg { view-transition-name: e2p; }
+body.e2p-on #e2p-hero { display: block; }
+body.e2p-on #quarto-content { padding-top: var(--e2p-space); }
+/* hue-rotate keeps the blue highlight blue after the dark-mode invert. */
+body.quarto-dark #e2p-hero { filter: invert(1) hue-rotate(180deg); --e2p-hi: 0.8; --e2p-lo: 0.35; }
+@media print {
+  #e2p-hero { display: none !important; }
+  body.e2p-on #quarto-content { padding-top: 0; }
+}
+
 
 /* Landing page: photo top-left, About Me centered, contact links at the
    bottom of the page. Breaks the trestles template's fixed two-column

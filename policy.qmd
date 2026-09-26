@@ -1,6 +1,12 @@
 ---
 title: "Policy"
+include-in-header: _e2p-head.html
+include-after-body: _e2p-hero.html
 ---
+
+```{=html}
+<img id="e2p-hero" src="files/figures/evidence-to-policy-highlight-analysis-transparent.svg" alt="" aria-hidden="true">
+```
 
 ## Open Policy Analysis
 

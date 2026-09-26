@@ -75,6 +75,7 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 <style>html{ scroll-behavior: smooth; }</style>
+<style>@view-transition { navigation: auto; }</style>
 
 
 <link rel="stylesheet" href="styles.css">
@@ -323,6 +324,7 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<img id="e2p-hero" src="files/figures/evidence-to-policy-highlight-analysis-transparent.svg" alt="" aria-hidden="true">
 <section id="open-policy-analysis" class="level2">
 <h2 class="anchored" data-anchor-id="open-policy-analysis">Open Policy Analysis</h2>
 <p><strong>Open Policy Analysis (OPA)</strong> is a framework we developed to bring the transparency and reproducibility standards of open science into the world of policy analysis. Most policy analyses — cost-effectiveness analyses, budget projections, and regulatory impact assessments that inform real decisions — are produced as static reports with opaque assumptions. When two analysts reach different conclusions about the same policy, it’s often impossible to tell whether the disagreement is about data, methodology, or values. OPA addresses this by making every component of a policy analysis open and reproducible.</p>
@@ -365,6 +367,42 @@ ul.task-list li input[type="checkbox"] {
 </section>
 
 </main> <!-- /main -->
+<script>
+// Pinned evidence-to-policy diagram (landing, Research and Policy pages).
+// The page opens with the diagram alone in the first screen; the content
+// starts below it and scrolls up over it while the diagram fades to a
+// background strength (the two strengths are set in styles.css). Every page
+// places it identically, so moving between pages keeps it in the same spot.
+(function () {
+  var img = document.getElementById("e2p-hero");
+  if (!img) return;
+  document.body.appendChild(img);
+  var ASPECT = 202.138 / 484.67, space = 1;
+  function layout() {
+    var vw = document.documentElement.clientWidth, vh = window.innerHeight;
+    var header = document.getElementById("quarto-header");
+    var navH = header ? header.offsetHeight : 0;
+    var w = Math.min(720, vw * 0.9), h = w * ASPECT;
+    // First screen: the diagram centred between the navbar and the page
+    // title, which peeks in at 80% of the window height.
+    space = Math.max(h + 60, vh * 0.8 - navH);
+    img.style.width = w + "px";
+    img.style.left = (vw - w) / 2 + "px";
+    img.style.top = navH + (space - h) / 2 + "px";
+    document.body.style.setProperty("--e2p-space", space + "px");
+    document.body.classList.add("e2p-on");
+    fade();
+  }
+  function fade() {
+    var t = Math.min(1, Math.max(0, window.scrollY / (0.9 * space)));
+    document.body.style.setProperty("--e2p-t", t.toFixed(3));
+  }
+  layout();
+  window.addEventListener("resize", layout);
+  window.addEventListener("load", layout);
+  window.addEventListener("scroll", function () { requestAnimationFrame(fade); }, { passive: true });
+})();
+</script>
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     // Ensure there is a toggle, if there isn't float one in the top right
