@@ -5,7 +5,7 @@ main { max-width: 820px; }
 .course-list li { margin-bottom: 0.8rem; }
 
 /* Evidence-to-policy diagram pinned behind the landing, Research and Policy
-   pages: alone in the first screen, then fading from --e2p-hi to --e2p-lo as
+   pages: under the page title in the first screen, then fading from --e2p-hi to --e2p-lo as
    the content scrolls up over it. Placed and faded by _e2p-hero.html. The
    SVGs have transparent backgrounds and black ink, so dark mode inverts. */
 #e2p-hero {
@@ -21,12 +21,12 @@ main { max-width: 820px; }
   opacity: calc(var(--e2p-hi) - (var(--e2p-hi) - var(--e2p-lo)) * var(--e2p-t, 0));
 }
 body.e2p-on #e2p-hero { display: block; }
-body.e2p-on #quarto-content { padding-top: var(--e2p-space); }
+body.e2p-on #title-block-header { margin-bottom: var(--e2p-space) !important; }
 /* hue-rotate keeps the blue highlight blue after the dark-mode invert. */
 body.quarto-dark #e2p-hero { filter: invert(1) hue-rotate(180deg); --e2p-hi: 0.8; --e2p-lo: 0.35; }
 @media print {
   #e2p-hero { display: none !important; }
-  body.e2p-on #quarto-content { padding-top: 0; }
+  body.e2p-on #title-block-header { margin-bottom: 1rem !important; }
 }
 
 
