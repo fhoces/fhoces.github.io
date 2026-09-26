@@ -41,12 +41,14 @@ body.landing .quarto-about-trestles {
   display: flex !important;
   flex-direction: column;
   align-items: center;
-  position: relative;
   padding-top: 1rem;
 }
 body.landing .about-entity { display: contents !important; }
+/* Photo in the top-left corner of the page (not the window), so it scrolls
+   away with the top of the page. Positioned against the document: the
+   trestles container below must stay unpositioned. */
 body.landing .about-entity .about-image {
-  position: fixed !important;
+  position: absolute !important;
   top: 76px;
   left: 1.25rem;
   width: 6.5em !important;
