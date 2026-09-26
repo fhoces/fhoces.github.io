@@ -10,7 +10,7 @@ about:
   links:
     - icon: envelope
       text: Email
-      href: mailto:fhoces@berkeley.edu
+      href: mailto:fhoces@gmail.com
     - icon: github
       text: GitHub
       href: https://github.com/fhoces

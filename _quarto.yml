@@ -25,7 +25,7 @@ website:
         href: https://github.com/fhoces
         aria-label: GitHub
       - icon: envelope
-        href: mailto:fhoces@berkeley.edu
+        href: mailto:fhoces@gmail.com
         aria-label: Email
   page-footer:
     center: "© 2026 Fernando Hoces de la Guardia"
