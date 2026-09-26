@@ -98,3 +98,46 @@ body.landing .about-links {
     margin: 0 auto 1rem auto !important;
   }
 }
+
+/* Narrow screens: keep the navbar on one row instead of collapsing it
+   behind a menu button. The name becomes a house icon (the link keeps the
+   name for screen readers), and below 700px the page links shorten to
+   initials. */
+@media (max-width: 991.98px) {
+  #quarto-header .navbar-container { flex-wrap: nowrap; align-items: center; }
+  #quarto-header .navbar-toggler { display: none; }
+  #quarto-header .navbar-brand-container { margin: 0 !important; order: 0; flex: 0 0 auto; }
+  #quarto-header .navbar-brand { margin-right: 0.25rem; padding: 0; }
+  #quarto-header .navbar-title { font-size: 0; }
+  #quarto-header .navbar-title::before {
+    font-family: bootstrap-icons;
+    content: "\f425" / "";
+    font-size: 1.3rem;
+    vertical-align: -0.15em;
+  }
+  #quarto-header #navbarCollapse {
+    display: flex !important;
+    flex-basis: auto;
+    flex-grow: 1;
+    order: 1;
+    align-items: center;
+    min-width: 0;
+  }
+  #quarto-header #navbarCollapse .navbar-nav {
+    flex-direction: row;
+    max-height: none;
+    overflow: visible;
+  }
+  #quarto-header #navbarCollapse .nav-link { padding: 0.5rem 0.45rem; white-space: nowrap; }
+  #quarto-header #quarto-search { order: 2; }
+  #quarto-header .quarto-navbar-tools { order: 3; }
+}
+@media (max-width: 699.98px) {
+  #quarto-header .navbar-nav.me-auto .menu-text { font-size: 0; }
+  #quarto-header .navbar-nav.me-auto .menu-text::before { font-size: 1rem; }
+  #quarto-header a[href$="research.html"] .menu-text::before { content: "R" / ""; }
+  #quarto-header a[href$="policy.html"] .menu-text::before { content: "P" / ""; }
+  #quarto-header a[href$="teaching.html"] .menu-text::before { content: "T&L" / ""; }
+  #quarto-header a[href$="cv.html"] .menu-text::before { content: "CV" / ""; }
+  #quarto-header #navbarCollapse .nav-link { padding: 0.5rem 0.35rem; }
+}
