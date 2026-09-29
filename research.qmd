@@ -10,6 +10,8 @@ include-after-body: _e2p-hero.html
 
 I study how evidence reaches policy, and how transparency can build a common understanding of that evidence. My work sits at two points of the chain in the diagram above. At the research node, I measure whether the results economists plan to test ever become public, and I develop standardized formats for reporting them. At the policy analysis node, I developed Open Policy Analysis, a framework that makes the data, code, and assumptions behind a policy estimate open to inspection. Going forward, my main line of research is the standardization of research results, including tools built on large language models that make it affordable at scale. My second line builds new open policy analyses with the same tools.
 
+[<i class="bi bi-file-earmark-pdf"></i> Research Statement](files/research-statement.pdf)
+
 ## Job Market Paper
 
 **"Beyond Publication Bias: Characterizing and Understanding Missing Results in Economics"**\
@@ -55,5 +57,3 @@ What scientists choose not to publish can be as important as what they do publis
 - "Better-than-average and worse-than-average hospitals may not significantly differ from average hospitals: an analysis of Medicare Hospital Compare ratings"; SM Paddock, JL Adams, F. Hoces de la Guardia; *BMJ Quality & Safety*; 2015. [DOI](https://doi.org/10.1136/bmjqs-2014-003405)
 - "Evaluating the Chile Solidario Program: Results Using the Chile Solidario Panel and the Administrative Databases", F. Hoces De La Guardia, A. Hojman, O. Larranaga; *Revista Estudios de Economia*, 2011. [DOI](https://doi.org/10.4067/s0718-52862011000100006)
 :::
-
-[<i class="bi bi-file-earmark-pdf"></i> Research Statement](files/research-statement.pdf)
