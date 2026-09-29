@@ -325,25 +325,18 @@ ul.task-list li input[type="checkbox"] {
 
 
 <img id="e2p-hero" src="files/figures/evidence-to-policy-highlight-research-transparent.svg" alt="" aria-hidden="true">
-<p>I want policy debates to start from a common understanding of the evidence. The diagram at the top of this page shows the chain I work on. Research turns phenomena into findings. Policy analysis turns a body of findings into the costs and benefits of a proposed policy. With agreed-upon costs and benefits, policymakers can support or oppose a policy based on their values rather than on competing facts. When research and policy analysis fail to build that common ground, we end up with what Manski (2013) called <em>dueling certitudes</em>.</p>
-<p>My work uses tools from policy analysis, economics, and research transparency at two points of this chain. At the research node, my job market paper measures whether pre-registered findings ever become public, and tests ways to recover them and to standardize how they are reported. At the policy analysis node, I developed Open Policy Analysis (<a href="https://doi.org/10.1093/scipol/scaa067">Hoces de la Guardia, Grant and Miguel 2021</a>, <em>Science and Public Policy</em>). It is a framework that makes the data, code, and assumptions behind a policy estimate easy to inspect. I also trained researchers in research transparency and helped build tools for computational reproducibility, including the <a href="https://www.nber.org/papers/w33753">Social Science Reproduction Platform</a> <a href="https://web.archive.org/web/20260708055115/https://www.socialsciencereproduction.org/">[archive]</a>, which let researchers record and share reproductions of published papers.</p>
-<p>This interest started before my PhD, at Chile’s Ministries of Planning and Finance. There I produced official poverty estimates, co-led the evaluation of the national anti-poverty program, and estimated the budget impact of social policies. Those numbers reached decision makers as single figures, with no sense of their uncertainty and no way to inspect them.</p>
+<p>I study how evidence reaches policy, and how transparency can build a common understanding of that evidence. My work sits at two points of the chain in the diagram above. At the research node, I measure whether the results economists plan to test ever become public, and I develop standardized formats for reporting them. At the policy analysis node, I developed Open Policy Analysis, a framework that makes the data, code, and assumptions behind a policy estimate open to inspection. Going forward, my main line of research is the standardization of research results, including tools built on large language models that make it affordable at scale. My second line builds new open policy analyses with the same tools.</p>
 <section id="job-market-paper" class="level2">
 <h2 class="anchored" data-anchor-id="job-market-paper">Job Market Paper</h2>
 <p><strong>“Beyond Publication Bias: Characterizing and Understanding Missing Results in Economics”</strong><br>
 Hoces de la Guardia, F., Miguel, E., Pathan, G., Silva da Rocha, V., Shaji, A., Sørensen, E., Tungodden, B.<br>
 (manuscript available upon request, slides <a href="https://fhoces.github.io/BITSS-AM-2026-slides/#1">here</a>, <a href="https://www.youtube.com/watch?v=JqyH0s2f8TI&amp;t=15s">talk at the BITSS Annual Meeting 2026</a><span>, study results page coming soon</span>)</p>
-<p><strong>Key findings</strong> (June 2026 draft). The paper standardizes every pre-registered hypothesis for a sample of studies in the AEA RCT Registry and tracks each one to its reported result. It then runs its own RCT to find what keeps results unreported.</p>
+<p>We standardized 5,048 pre-registered hypotheses from 317 studies in the AEA RCT Registry and tracked each one to its result.</p>
 <ul>
-<li>5,048 pre-registered hypotheses from 317 studies.</li>
-<li>58% of hypotheses have no publicly available result 8 to 9 years after pre-registration (42% available).</li>
-<li>64.5% of the reported results are null. This cuts against the usual story that only significant findings become public.</li>
-<li>An RCT with over 300 research teams tested three barriers to reporting: awareness, engagement, and resources. Only engagement worked. Our team identified each author’s missing hypotheses and asked them, one by one, to report or explain each. This raised the share of hypotheses with public results by 6.2 percentage points (11% of missing hypotheses). Most of the gain came from results that existed but were buried. Genuinely new estimates account for 2.5 points.</li>
-<li>Authors explained a further 18% of missing hypotheses as research that was never completed.</li>
-<li>Neither a light-touch awareness message nor a more expensive research-assistance offer changed reporting.</li>
-<li>Even with engagement, 42% of hypotheses remained neither reported nor explained. Recovery after the fact is possible but labor-intensive. The paper prototypes one piece of infrastructure to prevent the problem: Results Reports, fixed-format records that state each hypothesis, population, and outcome definition alongside its result.</li>
+<li>58% have no public result 8 to 9 years after pre-registration, and 64.5% of the reported results are null.</li>
+<li>In an RCT with over 300 research teams, only hands-on engagement with each author’s missing hypotheses raised reporting, by 6.2 percentage points. A light-touch message and paid research assistance did not.</li>
+<li>Even with engagement, 42% of hypotheses remained unaccounted for. The paper prototypes standardized Results Reports to close the gap.</li>
 </ul>
-<p>I am co-principal investigator of the program behind the paper, funded by the Centre for Experimental Research on Fairness, Inequality and Rationality (FAIR). I led the design of the RCT and of the hypothesis-encoding protocol, with a team of three full-time research assistants.</p>
 <div class="callout callout-style-simple callout-note callout-titled">
 <div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
@@ -361,30 +354,8 @@ Hoces de la Guardia, F., Miguel, E., Pathan, G., Silva da Rocha, V., Shaji, A., 
 </div>
 </div>
 </section>
-<section id="two-lines-of-research" class="level2">
-<h2 class="anchored" data-anchor-id="two-lines-of-research">Two Lines of Research</h2>
-<p>Both lines address one problem. When readers cannot see the quality of evidence or analysis, they judge it by which result fits their views, or by proxies such as the presenter’s confidence and credentials. Standardized results make it easier to see what was and was not reported, and when studies of the same question can be compared. Open analyses let readers judge a policy estimate on its methods alone. Each line makes the other more useful. An open cost-benefit analysis is worth more when the literature behind it reports what it planned to. Standardized results are worth more when the analyses that use them can be inspected.</p>
-<section id="standardization-of-results" class="level3">
-<h3 class="anchored" data-anchor-id="standardization-of-results">Standardization of Results</h3>
-<p>This is my main line going forward. It builds on the job market paper and on reporting guidelines in medicine and public health, such as CONSORT for randomized trials.</p>
-<ul>
-<li><strong>LLM encoding (in progress).</strong> A tool built on large language models that standardizes pre-registered hypotheses and their results, benchmarked for accuracy and cost against our hand-encoded data. Encoding is the costly step behind engagement. If the tool matches hand encoding at a fraction of the cost, engaging authors becomes affordable across the whole registry. I am co-principal investigator on a one-year grant from Coefficient Giving (formerly Open Philanthropy) for this project.</li>
-<li><strong>Spillovers.</strong> Tests of whether our interventions spread to the networks of researchers in the treatment arms (<a href="https://doi.org/10.1257/rct.13755-2.1">pre-analysis plan</a>).</li>
-<li><strong>Multiple testing.</strong> Corrections for every study in the sample, using the number of hypotheses it pre-registered rather than the number it reported.</li>
-<li><strong>Publication-bias corrections.</strong> A test of whether a standard model-based correction matches the missing results we measure directly, in literatures such as cash transfers.</li>
-<li><strong>A second RCT, at registration.</strong> A test of whether adopting Results Reports as a standard raises the share of pre-registered hypotheses that get reported. It would also retest the awareness message, sent early and by the adopting institution, and test engagement at scale if the LLM tool makes it affordable.</li>
-<li><strong>Beyond RCTs.</strong> Results Reports for quasi-experimental and descriptive research. For designs such as instrumental variables, regression discontinuity, and difference-in-differences, authors would state the hypothetical experiment each design approximates. For descriptive studies that disagree sharply, such as estimates of U.S. income inequality, the reports would show which methodological choices drive the difference.</li>
-</ul>
-</section>
-<section id="open-policy-analysis" class="level3">
-<h3 class="anchored" data-anchor-id="open-policy-analysis">Open Policy Analysis</h3>
-<p>Open Policy Analysis grew out of my dissertation. It rebuilt a Congressional Budget Office estimate of the employment effects of a minimum wage increase as a fully transparent and reproducible analysis. A reader could trace every input and see how the result moved under other assumptions. The framework sets out three principles (open output, open analysis, and open materials) and applies them to the layers of a report. Each layer serves a different reader, from the policymaker who sees one pre-specified result to the analyst who can reproduce everything. We tested it on a progressive wealth tax and on deworming, and I used it to assess the ex-ante economic analyses of USAID. The <a href="policy.html">Policy page</a> has the details.</p>
-<p>The main lesson was that open analysis is feasible but costly. Each application took months of work by hand, and none became routine practice. My working hypothesis is that tools built on large language models can lower that cost enough to reopen the agenda. I am prototyping new open analyses built in weeks rather than months, also on the <a href="policy.html">Policy page</a>, and planning case studies in U.S. health policy with Chapin White.</p>
-<p>The two lines also meet in one project: finding, before the research is done, where the next study would be most informative. An open analysis shows which inputs move a policy estimate most. Standardized results show how much evidence stands behind each input, and how much it disagrees. Together they point to where the next study is most likely to change the answer.</p>
-</section>
-</section>
-<section id="other-ongoing-research" class="level2">
-<h2 class="anchored" data-anchor-id="other-ongoing-research">Other Ongoing Research</h2>
+<section id="published-and-working-papers" class="level2">
+<h2 class="anchored" data-anchor-id="published-and-working-papers">Published and Working Papers</h2>
 <section id="working-papers" class="level3">
 <h3 class="anchored" data-anchor-id="working-papers">Working Papers</h3>
 <div class="pub-list">

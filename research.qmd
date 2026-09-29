@@ -8,11 +8,7 @@ include-after-body: _e2p-hero.html
 <img id="e2p-hero" src="files/figures/evidence-to-policy-highlight-research-transparent.svg" alt="" aria-hidden="true">
 ```
 
-I want policy debates to start from a common understanding of the evidence. The diagram at the top of this page shows the chain I work on. Research turns phenomena into findings. Policy analysis turns a body of findings into the costs and benefits of a proposed policy. With agreed-upon costs and benefits, policymakers can support or oppose a policy based on their values rather than on competing facts. When research and policy analysis fail to build that common ground, we end up with what Manski (2013) called *dueling certitudes*.
-
-My work uses tools from policy analysis, economics, and research transparency at two points of this chain. At the research node, my job market paper measures whether pre-registered findings ever become public, and tests ways to recover them and to standardize how they are reported. At the policy analysis node, I developed Open Policy Analysis ([Hoces de la Guardia, Grant and Miguel 2021](https://doi.org/10.1093/scipol/scaa067), *Science and Public Policy*). It is a framework that makes the data, code, and assumptions behind a policy estimate easy to inspect. I also trained researchers in research transparency and helped build tools for computational reproducibility, including the [Social Science Reproduction Platform](https://www.nber.org/papers/w33753) [[archive]](https://web.archive.org/web/20260708055115/https://www.socialsciencereproduction.org/), which let researchers record and share reproductions of published papers.
-
-This interest started before my PhD, at Chile's Ministries of Planning and Finance. There I produced official poverty estimates, co-led the evaluation of the national anti-poverty program, and estimated the budget impact of social policies. Those numbers reached decision makers as single figures, with no sense of their uncertainty and no way to inspect them.
+I study how evidence reaches policy, and how transparency can build a common understanding of that evidence. My work sits at two points of the chain in the diagram above. At the research node, I measure whether the results economists plan to test ever become public, and I develop standardized formats for reporting them. At the policy analysis node, I developed Open Policy Analysis, a framework that makes the data, code, and assumptions behind a policy estimate open to inspection. Going forward, my main line of research is the standardization of research results, including tools built on large language models that make it affordable at scale. My second line builds new open policy analyses with the same tools.
 
 ## Job Market Paper
 
@@ -20,17 +16,11 @@ This interest started before my PhD, at Chile's Ministries of Planning and Finan
 Hoces de la Guardia, F., Miguel, E., Pathan, G., Silva da Rocha, V., Shaji, A., Sørensen, E., Tungodden, B.\
 (manuscript available upon request, slides [here](https://fhoces.github.io/BITSS-AM-2026-slides/#1), [talk at the BITSS Annual Meeting 2026](https://www.youtube.com/watch?v=JqyH0s2f8TI&t=15s)[, [study results page](file:///Users/fernando/Desktop/sandbox/RGPB_repos/rgpb-phase2-clean-analyse/docs/policy-recs/lessons/index.html)]{.content-visible when-profile="local"}[, study results page coming soon]{.content-hidden when-profile="local"})
 
-**Key findings** (June 2026 draft). The paper standardizes every pre-registered hypothesis for a sample of studies in the AEA RCT Registry and tracks each one to its reported result. It then runs its own RCT to find what keeps results unreported.
+We standardized 5,048 pre-registered hypotheses from 317 studies in the AEA RCT Registry and tracked each one to its result.
 
-- 5,048 pre-registered hypotheses from 317 studies.
-- 58% of hypotheses have no publicly available result 8 to 9 years after pre-registration (42% available).
-- 64.5% of the reported results are null. This cuts against the usual story that only significant findings become public.
-- An RCT with over 300 research teams tested three barriers to reporting: awareness, engagement, and resources. Only engagement worked. Our team identified each author's missing hypotheses and asked them, one by one, to report or explain each. This raised the share of hypotheses with public results by 6.2 percentage points (11% of missing hypotheses). Most of the gain came from results that existed but were buried. Genuinely new estimates account for 2.5 points.
-- Authors explained a further 18% of missing hypotheses as research that was never completed.
-- Neither a light-touch awareness message nor a more expensive research-assistance offer changed reporting.
-- Even with engagement, 42% of hypotheses remained neither reported nor explained. Recovery after the fact is possible but labor-intensive. The paper prototypes one piece of infrastructure to prevent the problem: Results Reports, fixed-format records that state each hypothesis, population, and outcome definition alongside its result.
-
-I am co-principal investigator of the program behind the paper, funded by the Centre for Experimental Research on Fairness, Inequality and Rationality (FAIR). I led the design of the RCT and of the hypothesis-encoding protocol, with a team of three full-time research assistants.
+- 58% have no public result 8 to 9 years after pre-registration, and 64.5% of the reported results are null.
+- In an RCT with over 300 research teams, only hands-on engagement with each author's missing hypotheses raised reporting, by 6.2 percentage points. A light-touch message and paid research assistance did not.
+- Even with engagement, 42% of hypotheses remained unaccounted for. The paper prototypes standardized Results Reports to close the gap.
 
 ::: {.callout-note collapse="true" appearance="simple"}
 ## Abstract
@@ -38,30 +28,7 @@ I am co-principal investigator of the program behind the paper, funded by the Ce
 What scientists choose not to publish can be as important as what they do publish. This study introduces a novel measure of the reporting of research results in economics, and investigates the causes behind under-reporting. Across over 5,048 pre-registered hypotheses from 317 studies on the American Economic Association RCT Trial Registry that were encoded, we first show that only 42% of hypotheses, on average across studies, have publicly available results 8 to 9 years after pre-registration. Around 64.5% of these publicly available findings are null results (i.e., not statistically significant), contrary to widespread concerns about the non-reporting of null results. An RCT was carried out to test three plausible barriers to full reporting, namely, a lack of awareness, engagement, or resources. An intervention in which our team engaged directly with the authors' research and their under-reported findings increased the share of hypotheses with publicly available results by 6.2 percentage points (11% of the missing hypotheses), though most of this increase reflected results that already existed but were buried or previously observed; genuinely new estimates account for only 2.5 percentage points. Authors explained a further 18% of missing hypotheses as cases where the planned research never occurred; these explanations document why a result is absent rather than providing it, and although they do little for publication bias, they help limit research waste by creating a record of which planned studies were never carried out. Neither a light-touch "awareness" intervention nor a more expensive research-assistance intervention added to reporting, indicating that recovery required hands-on engagement. Together, the findings indicate that the majority of pre-registered hypotheses in economics remain unreported, with 42% still unaccounted for even after our most intensive arm; that under-reporting is more complex than a simple reluctance to report nulls; and that recovering missing results is difficult and labor-intensive rather than low-cost. We conclude that there is still need for stronger incentives and infrastructure to ensure that pre-registered scientific plans translate into publicly accessible evidence. Toward that end, this study provides prototypes of how standardized results reporting could be incorporated into economics.
 :::
 
-## Two Lines of Research
-
-Both lines address one problem. When readers cannot see the quality of evidence or analysis, they judge it by which result fits their views, or by proxies such as the presenter's confidence and credentials. Standardized results make it easier to see what was and was not reported, and when studies of the same question can be compared. Open analyses let readers judge a policy estimate on its methods alone. Each line makes the other more useful. An open cost-benefit analysis is worth more when the literature behind it reports what it planned to. Standardized results are worth more when the analyses that use them can be inspected.
-
-### Standardization of Results
-
-This is my main line going forward. It builds on the job market paper and on reporting guidelines in medicine and public health, such as CONSORT for randomized trials.
-
-- **LLM encoding (in progress).** A tool built on large language models that standardizes pre-registered hypotheses and their results, benchmarked for accuracy and cost against our hand-encoded data. Encoding is the costly step behind engagement. If the tool matches hand encoding at a fraction of the cost, engaging authors becomes affordable across the whole registry. I am co-principal investigator on a one-year grant from Coefficient Giving (formerly Open Philanthropy) for this project.
-- **Spillovers.** Tests of whether our interventions spread to the networks of researchers in the treatment arms ([pre-analysis plan](https://doi.org/10.1257/rct.13755-2.1)).
-- **Multiple testing.** Corrections for every study in the sample, using the number of hypotheses it pre-registered rather than the number it reported.
-- **Publication-bias corrections.** A test of whether a standard model-based correction matches the missing results we measure directly, in literatures such as cash transfers.
-- **A second RCT, at registration.** A test of whether adopting Results Reports as a standard raises the share of pre-registered hypotheses that get reported. It would also retest the awareness message, sent early and by the adopting institution, and test engagement at scale if the LLM tool makes it affordable.
-- **Beyond RCTs.** Results Reports for quasi-experimental and descriptive research. For designs such as instrumental variables, regression discontinuity, and difference-in-differences, authors would state the hypothetical experiment each design approximates. For descriptive studies that disagree sharply, such as estimates of U.S. income inequality, the reports would show which methodological choices drive the difference.
-
-### Open Policy Analysis
-
-Open Policy Analysis grew out of my dissertation. It rebuilt a Congressional Budget Office estimate of the employment effects of a minimum wage increase as a fully transparent and reproducible analysis. A reader could trace every input and see how the result moved under other assumptions. The framework sets out three principles (open output, open analysis, and open materials) and applies them to the layers of a report. Each layer serves a different reader, from the policymaker who sees one pre-specified result to the analyst who can reproduce everything. We tested it on a progressive wealth tax and on deworming, and I used it to assess the ex-ante economic analyses of USAID. The [Policy page](policy.html) has the details.
-
-The main lesson was that open analysis is feasible but costly. Each application took months of work by hand, and none became routine practice. My working hypothesis is that tools built on large language models can lower that cost enough to reopen the agenda. I am prototyping new open analyses built in weeks rather than months, also on the [Policy page](policy.html), and planning case studies in U.S. health policy with Chapin White.
-
-The two lines also meet in one project: finding, before the research is done, where the next study would be most informative. An open analysis shows which inputs move a policy estimate most. Standardized results show how much evidence stands behind each input, and how much it disagrees. Together they point to where the next study is most likely to change the answer.
-
-## Other Ongoing Research
+## Published and Working Papers
 
 ### Working Papers
 
