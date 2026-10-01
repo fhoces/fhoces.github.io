@@ -18,7 +18,7 @@ Below, in [Self-Directed Courses](#self-directed-courses), are short courses I b
 
 ## Teaching and Learning with AI
 
-In mathematics, AI now generates proofs faster than mathematicians can digest them (Tao 2026). For teaching, the lesson is that producing gradable output is no longer the challenge. Understanding it is. As Andrej Karpathy put it, "You can outsource your thinking, but you cannot outsource your understanding."
+In mathematics, AI now generates proofs faster than mathematicians can digest them (Tao 2026). For teaching, the lesson is that producing gradable output is no longer the challenge. Understanding it is. "You can outsource your thinking, but you cannot outsource your understanding" (Karpathy 2026).
 
 I use AI coding agents such as Claude Code every day. I built every course in the [Self-Directed Courses](#self-directed-courses) section below with them. The [refresher on machine learning](https://fhoces.github.io/ml-discrimination-refresher/), for example, took less than a week. Students who use these tools also need concepts once left to programmers, such as version control and verification plans, and I plan to teach them in the first classes.
 
