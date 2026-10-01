@@ -1,10 +1,10 @@
 ---
-title: "Research Transparency and Reproducibility Trainings"
+title: "Research Transparency Trainings and Guest Lectures"
 ---
 
 Trainings I designed and taught on research transparency and reproducibility (version control, dynamic documents, pre-registration, computational reproducibility), mostly as part of the [Berkeley Initiative for Transparency in the Social Sciences (BITSS)](https://www.bitss.org/). Each row is one event; some events had several sessions. Links point to the materials where they survive.
 
-**Total: 29 trainings, 2017 to 2026.**
+**Total: 33 (29 trainings and 4 guest lectures), 2017 to 2026.**
 
 | Year | Training | Place | Materials |
 |------|----------|-------|-----------|
@@ -42,5 +42,7 @@ Trainings I designed and taught on research transparency and reproducibility (ve
 
 | Year | Course | Place |
 |------|--------|-------|
-| 2019, 2020, 2021 | Research transparency, undergraduate course (2020 and 2021 remote) | UC Berkeley |
+| 2021 | Research transparency, undergraduate course (remote) | UC Berkeley |
+| 2020 | Research transparency, undergraduate course (remote) | UC Berkeley |
+| 2019 | Research transparency, undergraduate course | UC Berkeley |
 | 2021 | DATA H195A | UC Berkeley |
