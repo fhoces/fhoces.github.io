@@ -110,5 +110,19 @@
     "title": "Teaching and Learning",
     "section": "Teaching and Learning with AI",
     "text": "Teaching and Learning with AI\nIn mathematics, AI now generates proofs faster than mathematicians can digest them (Tao 2026). For teaching, the lesson is that producing gradable output is no longer the challenge. Understanding it is. “You can outsource your thinking, but you cannot outsource your understanding” (Karpathy 2026).\nI use AI coding agents such as Claude Code every day. I built every course in the Self-Directed Courses section below with them. The refresher on machine learning, for example, took less than a week. Students who use these tools also need concepts once left to programmers, such as version control and verification plans, and I plan to teach them in the first classes.\nI plan to assess what a student understands, not how finished the work looks. Verification comes first, and it is a module of its own in my Administrative Data Pipelines course. I will give students AI-generated output with errors in one section and ask them to find them. Explanation is the test of understanding, through in-class tests and AI routines that question a student one step at a time. For disclosure of AI use, I lead by example, as in my open policy analysis of the economic effects of AI."
+  },
+  {
+    "objectID": "trainings.html",
+    "href": "trainings.html",
+    "title": "Research Transparency and Reproducibility Trainings",
+    "section": "",
+    "text": "Trainings I designed and taught on research transparency and reproducibility (version control, dynamic documents, pre-registration, computational reproducibility), mostly as part of the Berkeley Initiative for Transparency in the Social Sciences (BITSS). Each row is one event; some events had several sessions. Links point to the materials where they survive.\nTotal: 29 trainings, 2017 to 2026."
+  },
+  {
+    "objectID": "trainings.html#guest-lectures",
+    "href": "trainings.html#guest-lectures",
+    "title": "Research Transparency and Reproducibility Trainings",
+    "section": "Guest lectures",
+    "text": "Guest lectures\n\n\n\n\n\n\n\n\nYear\nCourse\nPlace\n\n\n\n\n2019, 2020, 2021\nResearch transparency, undergraduate course (2020 and 2021 remote)\nUC Berkeley\n\n\n2021\nDATA H195A\nUC Berkeley"
   }
 ]
