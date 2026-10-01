@@ -12,7 +12,7 @@ title: "Teaching and Learning"
 - Introduction to Environmental Economics & Policy at UC Berkeley (EEP1/EC3), 2020
 - Econometrics I at Universidad de Chile, 2007, 2008, 2010
 
-Below, in [Self-Directed Courses](#self-directed-courses), are short courses I built to learn or refresh tools and methods for industry roles that fit my background.
+Below, in Self-Directed Courses, are short courses I built to learn or refresh tools and methods for industry roles that fit my background.
 
 ## Self-Directed Courses {#self-directed-courses}
 
