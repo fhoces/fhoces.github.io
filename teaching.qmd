@@ -5,7 +5,7 @@ title: "Teaching and Learning"
 I teach because it changes how people think and sharpens my own understanding. In teaching, as in research, I aim to raise the floor, not only push the frontier. That means helping every student along, not just the brightest. Clarity and rigor are how I do it. I offer several ways into a hard idea, and I build materials that are computationally reproducible, so students can trace and change every result. Raising the floor also means making sure students from disadvantaged backgrounds know about and use campus resources such as tutoring and advising. I can teach methods for policy analysis, program evaluation, and applied econometrics, as well as most undergraduate courses in economics and statistics. I would especially like to teach a course on Open Policy Analysis.
 
 ::: {.text-center}
-[<i class="bi bi-file-earmark-pdf"></i> Teaching Statement](files/teaching-statement.pdf)
+[<i class="bi bi-file-earmark-pdf"></i> Teaching Statement](files/teaching-statement.pdf) &nbsp;&nbsp; [<i class="bi bi-file-earmark-pdf"></i> Open Policy Analysis Course Proposal](files/opa-course-proposal.pdf)
 :::
 
 ## Semester-Long Courses
