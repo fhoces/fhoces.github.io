@@ -2,6 +2,12 @@
 title: "Teaching and Learning"
 ---
 
+I teach because it changes how people think and sharpens my own understanding. In teaching, as in research, I aim to raise the floor, not only push the frontier. That means helping every student along, not just the brightest. Clarity and rigor are how I do it. I offer several ways into a hard idea, and I build materials that are computationally reproducible, so students can trace and change every result. Raising the floor also means making sure students from disadvantaged backgrounds know about and use campus resources such as tutoring and advising. I can teach methods for policy analysis, program evaluation, and applied econometrics, as well as most undergraduate courses in economics and statistics. I would especially like to teach a course on Open Policy Analysis.
+
+::: {.text-center}
+[<i class="bi bi-file-earmark-pdf"></i> Teaching Statement](files/teaching-statement.pdf)
+:::
+
 ## Semester-Long Courses
 
 - Econometrics I at UC Berkeley (EC140), 2022. [Teaching materials](https://ec140s2022.netlify.app)
@@ -10,31 +16,13 @@ title: "Teaching and Learning"
 
 Additionally, [below](#self-directed-courses) you can find a collection of courses I have built to teach/refresh myself a collection of tools and methods relevant for industry jobs relevant for someone with my background.
 
-[<i class="bi bi-file-earmark-pdf"></i> Teaching Statement](files/teaching-statement.pdf)
+## Teaching and Learning with AI
 
-## Promises and Perils of AI for Teaching and Learning
+In mathematics, AI now generates proofs faster than mathematicians can digest them (Tao 2026). For teaching, the lesson is that producing gradable output is no longer the challenge. Understanding it is. As Andrej Karpathy put it, "You can outsource your thinking, but you cannot outsource your understanding."
 
-*My current thinking, which I expect to keep revising as the tools change.*
+I use AI coding agents such as Claude Code every day. I built every course in the [Self-Directed Courses](#self-directed-courses) section below with them. The [refresher on machine learning](https://fhoces.github.io/ml-discrimination-refresher/), for example, took less than a week. Students who use these tools also need concepts once left to programmers, such as version control and verification plans, and I plan to teach them in the first classes.
 
-Over the past year I have used AI coding agents (mainly Claude Code) to build every course in the [Self-Directed Courses](#self-directed-courses) section above, and a set of math materials for my children. That experience has left me both more optimistic and more cautious than when I started.
-
-**Promises**
-
-- **Tailoring at almost no cost.** A course can be built around one learner's goal, level and running example. Materials that once took a semester to prepare now take days, so it becomes realistic to write a course for an audience of one.
-- **Explanations that adapt.** When an explanation does not land, the tool can rewrite it immediately with a concrete worked example. I keep a running log of the concepts that confused me, and the assistant uses it to explain related ideas more plainly the next time.
-- **Practice on demand.** Drills, worksheets, mock interviews and interactive explorers can be generated from a single source, so the bottleneck for practice is no longer the instructor's time.
-
-**Perils**
-
-- **Fluent is not the same as correct.** AI-generated materials look finished long before they are right. In one batch of seven slide decks, every deck passed the tool's own checks and every deck still had visible errors. Someone who can actually check the material has to do so.
-- **Outsourcing the struggle.** Much of learning happens in the effort of working a problem out. An assistant that always supplies the answer removes that effort, and with it the feeling of *not* understanding that tells a learner where to focus.
-- **Output without understanding.** A student, or an instructor, can now produce a polished artifact they cannot explain. Assessments that grade the artifact can no longer tell the two apart.
-
-**What I do about it**
-
-- **Teach verification as a skill.** Checking AI output against golden datasets, reproducing results independently and reviewing changes to the *data*, not only the code, is a module in its own right in my [Administrative Data Pipelines](https://github.com/fhoces/admin-data-pipelines) course.
-- **Keep the thinking with the learner.** I use AI to build materials and generate practice, but the learner works the problem and explains the answer back.
-- **Disclose how AI was used, object by object.** Who conceived something, who executed it and who checked it are different questions. This is the same transparency principle behind my work on [Open Policy Analysis](policy.qmd).
+I plan to assess what a student understands, not how finished the work looks. Verification comes first, and it is a module of its own in my [Administrative Data Pipelines](https://github.com/fhoces/admin-data-pipelines) course. I will give students AI-generated output with errors in one section and ask them to find them. Explanation is the test of understanding, through in-class tests and AI routines that question a student one step at a time. For disclosure of AI use, I lead by example, as in my [open policy analysis of the economic effects of AI](https://fhoces.github.io/opa-ai-macro-econ-scenarios/index.html#how-ai-was-used).
 
 ## Self-Directed Courses {#self-directed-courses}
 
@@ -51,4 +39,3 @@ The courses below were built using Claude Code. Each course is a set of xaringan
 - [**Python for an R User**](https://fhoces.github.io/python-for-r-users/) — The pandas + statsmodels stack, framed as a dplyr-to-pandas translation. Covers data wrangling, joins, OLS, A/B test inference, and difference-in-differences, with end-to-end interview scenarios.
 :::
 
-<!-- DRAFT (2026-09-24): first version drafted from Fernando's own practice; rewrite in your voice before publishing. -->
