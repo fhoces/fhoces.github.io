@@ -4,7 +4,7 @@ title: "Teaching and Learning"
 
 ## Semester-Long Courses
 
-- Econometrics I at UC Berkeley (EC140), 2022. [Teaching materials](https://ec140s2022.netlify.app)
+- Introduction to Econometrics at UC Berkeley (EC140), 2022. [Teaching materials](https://ec140s2022.netlify.app)
 - Introduction to Environmental Economics & Policy at UC Berkeley (EEP1/EC3), 2020
 - Econometrics I at Universidad de Chile, 2007, 2008, 2010
 

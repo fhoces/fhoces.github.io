@@ -10,14 +10,14 @@ include-after-body: _e2p-hero.html
 
 ## Open Policy Analysis
 
-**Open Policy Analysis (OPA)** is a framework we developed to bring the transparency and reproducibility standards of open science into the world of policy analysis. Most policy analyses — cost-effectiveness analyses, budget projections, and regulatory impact assessments that inform real decisions — are produced as static reports with opaque assumptions. When two analysts reach different conclusions about the same policy, it's often impossible to tell whether the disagreement is about data, methodology, or values. OPA addresses this by making every component of a policy analysis open and reproducible.
+**Open Policy Analysis (OPA)** is a framework we developed to bring the transparency and reproducibility standards of open science into the world of policy analysis. Most policy analyses (cost-effectiveness analyses, budget projections, and regulatory impact assessments that inform real decisions) are produced as static reports with opaque assumptions. When two analysts reach different conclusions about the same policy, it's often impossible to tell whether the disagreement is about data, methodology, or values. OPA addresses this by making every component of a policy analysis open and reproducible.
 
-> Hoces de la Guardia, F., Grant, S., & Miguel, E. (2021). Open Policy Analysis. *Science and Public Policy*, 48(2), 154–163. <https://doi.org/10.1093/scipol/scaa067>
+> Hoces de la Guardia, F., Grant, S., & Miguel, E. (2021). A Framework for Open Policy Analysis. *Science and Public Policy*, 48(2), 154–163. <https://doi.org/10.1093/scipol/scaa067>
 
 To demonstrate what OPA looks like in practice, I led two proof-of-concept projects on active policy debates:
 
-- [**Deworming**](https://www.bitss.org/research/opa/projects/deworming/) — a cost-effectiveness analysis of mass deworming programs, one of the most debated topics in global development. The OPA version lets users adjust assumptions about treatment effects, take-up rates, and discount rates, and see how the cost-effectiveness estimate responds — making transparent what drives the disagreement between proponents and skeptics of deworming.
-- [**Wealth Tax**](https://www.bitss.org/research/opa/projects/progressive-wealth-tax/) — an analysis of the revenue and distributional effects of Senator Warren's proposed wealth tax. The OPA version exposes the key assumptions (tax base estimates, behavioral responses, enforcement costs) and lets users see how the revenue projection shifts under different scenarios.
+- [**Deworming**](https://www.bitss.org/research/opa/projects/deworming/): a cost-effectiveness analysis of mass deworming programs, one of the most debated topics in global development. The OPA version lets users adjust assumptions about treatment effects, take-up rates, and discount rates, and see how the cost-effectiveness estimate responds. This makes transparent what drives the disagreement between proponents and skeptics of deworming.
+- [**Wealth Tax**](https://www.bitss.org/research/opa/projects/progressive-wealth-tax/): an analysis of the revenue and distributional effects of Senator Warren's proposed wealth tax. The OPA version exposes the key assumptions (tax base estimates, behavioral responses, enforcement costs) and lets users see how the revenue projection shifts under different scenarios.
 
 This work is a direct extension of my [PhD dissertation](https://www.rand.org/pubs/rgs_dissertations/RGSD394.html), with a first prototype on a policy analysis on the effects of a [new minimum wage](https://rpubs.com/fhoces/dd_cbo_mw) in the US.
 
@@ -30,7 +30,7 @@ This work is a direct extension of my [PhD dissertation](https://www.rand.org/pu
 ## Other Policy Reports
 
 ::: pub-list
-- "Best Practices for Transparent, Reproducible, and Ethical Research", F. Hoces De La Guardia, J. Sturdy; Inter-American Development Bank, Technical Note #1635, March 2018. [dx.doi.org/10.18235/0001564](http://dx.doi.org/10.18235/0001564).
+- "Best Practices for Transparent, Reproducible, and Ethical Research", F. Hoces De La Guardia, J. Sturdy; Inter-American Development Bank, Technical Note #1635, March 2018. [doi.org/10.18235/0001564](https://doi.org/10.18235/0001564).
 - Hoces de la Guardia, F. (2022). "Transparency Assessment of Ex-Ante Economic Analyses in Development Organizations." USAID, November 2022. [[archived]](https://web.archive.org/web/20250202082838/https://pdf.usaid.gov/pdf_docs/PA00ZQ1N.pdf)
 :::
 
